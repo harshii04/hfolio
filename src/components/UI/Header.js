@@ -73,6 +73,7 @@ const Header = () => {
             <Link
               href={"https://twitter.com/harshii04"}
               className="leading-heading text-text-secondary hover:text-text-primary transition-all duration-300 ease-in-out"
+              target="_blank"
             >
               <TwitterLogo weight="duotone" className="md:w-6 md:h-6 w-5 h-5" />
             </Link>
@@ -85,6 +86,7 @@ const Header = () => {
             <Link
               href={"https://www.linkedin.com/in/harshui/"}
               className="leading-heading text-text-secondary hover:text-text-primary transition-all duration-300 ease-in-out"
+              target="_blank"
             >
               <LinkedinLogo
                 weight="duotone"
@@ -100,6 +102,7 @@ const Header = () => {
             <Link
               href="https://github.com/harshii04"
               className="leading-heading text-text-secondary hover:text-text-primary transition-all duration-300 ease-in-out"
+              target="_blank"
             >
               <GithubLogo weight="duotone" className="md:w-6 md:h-6 w-5 h-5" />
             </Link>
