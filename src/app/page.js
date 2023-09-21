@@ -3,7 +3,7 @@ import Featured from "@/components/Featured";
 import Project from "@/components/Project";
 import Header from "@/components/UI/Header";
 import Hero from "@/components/UI/Hero";
-import Image from "next/image";
+import VisualBg from "@/components/VisualBg";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Project />
+      <VisualBg />
       <Featured />
       <Experience />
     </>

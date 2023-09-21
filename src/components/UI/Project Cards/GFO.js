@@ -7,6 +7,7 @@ import AboutPrj from "../AboutPrj";
 import projectData from "../../../../Data/ProjectData";
 
 const ProjectCard = () => {
+  const prj = projectData.projects[0];
   return (
     <>
       <div className=" bg-orange-card md:py-12 md:px-8 py-8 px-4 flex flex-col gap-12 shadow-main-inner-shadow">
@@ -17,21 +18,22 @@ const ProjectCard = () => {
         </div>
         <div className="grid md:grid-cols-4 grid-cols-2 gap-2">
           <div>
-            <Image src={GFO1} alt="Project Image" />
+            <Image src={GFO1} alt="Project Image" draggable={false} />
           </div>
           <div>
-            <Image src={GFO2} alt="Project Image" />
+            <Image src={GFO2} alt="Project Image" draggable={false} />
           </div>
           <div>
-            <Image src={GFO3} alt="Project Image" />
+            <Image src={GFO3} alt="Project Image" draggable={false} />
           </div>
           <div>
-            <Image src={GFO4} alt="Project Image" />
+            <Image src={GFO4} alt="Project Image" draggable={false} />
           </div>
         </div>
       </div>
+      <AboutPrj {...prj} />
       {/* About the project will be here */}
-      {projectData.projects.map((project) => {
+      {/* {projectData.projects.map((project) => {
         return project.id == 1 ? (
           <AboutPrj
             key={project.id}
@@ -42,7 +44,7 @@ const ProjectCard = () => {
             cont={project.content}
           />
         ) : null;
-      })}
+      })} */}
     </>
   );
 };

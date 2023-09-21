@@ -5,6 +5,7 @@ const ExperienceData = {
       company: "Avalon Scenes",
       link: "https://www.buildonscenes.com/",
       timeline: "Dec '22 - Apr '23",
+      image:'',
       role: "Product Design Intern",
       about:
         "I enhanced existing flows, improved user profiles, and introduced new features like 'Weekly Leaderboard,' 'Poll creation,' and 'tags/hashtags'.",

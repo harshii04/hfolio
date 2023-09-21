@@ -8,8 +8,8 @@ const Experience = () => {
         <p className="font-medium text-text-secondary text-2xl leading-heading">
           Experience
         </p>
-        {experienceData.experiences.map((experience) => {
-          return <ExperienceCard key={experience.id} {...experience} />;
+        {experienceData.experiences.map((experience, index) => {
+          return <div key={index}><ExperienceCard  {...experience} /></div>
         })}
       </div>
     </>

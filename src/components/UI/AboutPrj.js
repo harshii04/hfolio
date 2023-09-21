@@ -1,4 +1,4 @@
-const AboutPrj = ({ role, tools, time, des, cont }) => {
+const AboutPrj = ({ role, tools, time, description, content }) => {
   return (
     <>
       <div className="md:flex md:flex-row flex-col items-start justify-between md:pt-8 md:gap-24 gap-8">
@@ -33,7 +33,7 @@ const AboutPrj = ({ role, tools, time, des, cont }) => {
             DESCRIPTION
           </p>
           <p className="text-text-primary leading-body md:text-lg text-base">
-            {des}
+            {description}
           </p>
         </div>
         <div className="flex flex-col gap-2 md:pb-0 pb-6">
@@ -41,7 +41,7 @@ const AboutPrj = ({ role, tools, time, des, cont }) => {
             CONTENT
           </p>
           <p className="text-text-primary leading-body md:text-lg text-base">
-            {cont}
+            {content}
           </p>
         </div>
       </div>

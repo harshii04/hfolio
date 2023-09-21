@@ -26,7 +26,7 @@ const Header = () => {
         </div>
 
         {/* This is the navbar section. */}
-        <div className="fixed left-1/2 transform -translate-x-1/2 bottom-0 -translate-y-[90%] md:top-6 md:translate-y-0 z-40">
+        <div className="fixed left-1/2 transform -translate-x-1/2 bottom-0 -translate-y-[90%] md:top-6 md:translate-y-0 z-40 !h-fit">
           <div className="flex items-center justify-between px-2 rounded-full bg-white bg-opacity-70 shadow-nav-shadow border border-border-stroke backdrop-blur-lg">
             <div className="p-4 cursor-pointer">
               <Link
@@ -77,7 +77,7 @@ const Header = () => {
             >
               <TwitterLogo weight="duotone" className="md:w-6 md:h-6 w-5 h-5" />
             </Link>
-            <span class="pointer-events-none absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-xs p-1 rounded hover:delay-200 text-center">
+            <span className="pointer-events-none absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-xs p-1 rounded hover:delay-200 text-center">
               Twitter
             </span>
           </div>
@@ -93,7 +93,7 @@ const Header = () => {
                 className="md:w-6 md:h-6 w-5 h-5"
               />
             </Link>
-            <span class="pointer-events-none absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-center text-xs py-1 px-2 rounded hover:delay-200">
+            <span className="pointer-events-none absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-center text-xs py-1 px-2 rounded hover:delay-200">
               LinkedIn
             </span>
           </div>
@@ -106,7 +106,7 @@ const Header = () => {
             >
               <GithubLogo weight="duotone" className="md:w-6 md:h-6 w-5 h-5" />
             </Link>
-            <span class="pointer-events-none absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-xs text-center p-1 rounded hover:delay-200">
+            <span className="pointer-events-none absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-xs text-center p-1 rounded hover:delay-200">
               Github
             </span>
           </div>
