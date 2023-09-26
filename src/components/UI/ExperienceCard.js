@@ -15,7 +15,7 @@ const ExperienceCard = ({ company, timeline, role, about, link }) => {
               rel="noreferrer"
               draggable={false}
             >
-              <p className="text-text-primary font-bold md:text-3xl text-xl leading-heading hover:cursor-pointer">
+              <p className="text-text-primary font-bold md:text-3xl text-xl leading-heading hover:cursor-pointer tracking-tight-2">
                 {company}
               </p>
             </Link>
@@ -24,7 +24,7 @@ const ExperienceCard = ({ company, timeline, role, about, link }) => {
               className="text-text-primary group-hover:-translate-y-1 group-hover:translate-x-1 transition-all duration-300 ease-in-out"
             />
           </div>
-          <p className="text-text-secondary md:text-base text-sm font-normal leading-heading">
+          <p className="text-text-secondary md:text-base text-sm leading-heading font-medium tracking-wide">
             {timeline}
           </p>
         </div>
@@ -32,10 +32,10 @@ const ExperienceCard = ({ company, timeline, role, about, link }) => {
         {/* About the role */}
         <div className="flex flex-col md:gap-4 gap-4  max-w-lg">
           <div className="flex flex-col gap-2">
-            <p className="text-text-primary font-bold md:text-2xl text-lg leading-heading">
+            <p className="text-text-primary font-bold md:text-2xl text-lg leading-heading tracking-tight">
               {role}
             </p>
-            <p className="text-text-secondary font-normal md:text-base text-sm leading-body">
+            <p className="text-text-secondary md:text-base text-sm leading-body tracking-wide font-medium">
               {about}
             </p>
           </div>

@@ -12,7 +12,11 @@ const Featured = () => {
         </div>
         <div className=" grid md:grid-cols-2 grid-cols-1 md:gap-8 gap-4 pt-16 flex-wrap">
           {featureData.featured.map((feature, index) => {
-            return <div key={index}><FeaturedCard {...feature} /></div>;
+            return (
+              <div key={index}>
+                <FeaturedCard {...feature} />
+              </div>
+            );
           })}
         </div>
       </div>

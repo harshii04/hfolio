@@ -25,7 +25,12 @@ module.exports = {
       },
       lineHeight: {
         heading: "120%",
+        "mobile-heading": "130%",
         body: "150%",
+      },
+      letterSpacing: {
+        "tight-2": "-0.09rem",
+        "light-2": "0.09rem",
       },
       boxShadow: {
         "nav-shadow": "0px 10px 10px -5px rgba(0, 0, 0, 0.1);",

@@ -10,16 +10,12 @@ const Header = () => {
       {/* This is the image and the name, description section of the header. */}
       <div className="container pt-8 flex items-center justify-between">
         <div className="flex md:gap-2 gap-1 items-center">
-          <Image
-            src={Sushi}
-            alt="Header Img"
-            className="md:w-12 md:h-8 w-10 h-6"
-          />
+          <Image src={Sushi} alt="Header Img" className="w-auto h-auto" />
           <div className="flex flex-col gap-1">
-            <p className="md:text-sm md:font-medium text-xs text-zinc-900 leading-heading">
+            <p className="md:text-sm font-bold text-xs text-zinc-900 leading-heading">
               Harshvardhan Agarwal
             </p>
-            <p className="md:text-sm text-xs text-zinc-500 leading-heading">
+            <p className="md:text-sm text-xs font-medium text-zinc-500 leading-heading">
               Product Designer
             </p>
           </div>
@@ -31,7 +27,7 @@ const Header = () => {
             <div className="p-4 cursor-pointer">
               <Link
                 href={"/"}
-                className="md:text-sm text-xs text-text-primary leading-heading"
+                className="md:text-sm text-xs font-medium text-text-primary leading-heading"
               >
                 Home
               </Link>
@@ -40,7 +36,7 @@ const Header = () => {
               {" "}
               <Link
                 href={"/work"}
-                className="md:text-sm text-xs text-text-secondary leading-heading"
+                className="md:text-sm text-xs  font-medium text-text-secondary leading-heading"
               >
                 Work
               </Link>{" "}
@@ -48,7 +44,7 @@ const Header = () => {
             <div className="p-4">
               <Link
                 href={"/about"}
-                className="md:text-sm text-xs text-text-secondary leading-heading"
+                className="md:text-sm text-xs font-medium text-text-secondary leading-heading"
               >
                 About
               </Link>
@@ -56,12 +52,12 @@ const Header = () => {
             <div className="p-4">
               <Link
                 href={"/about"}
-                className="md:text-sm text-xs text-text-secondary leading-heading"
+                className="md:text-sm text-xs font-medium text-text-secondary leading-heading"
               >
                 Blogs
               </Link>
             </div>
-            <div className="px-4 py-2 rounded-full bg-text-primary text-white md:text-sm text-xs leading-heading hover:cursor-pointer">
+            <div className="px-4 py-2 rounded-full bg-text-primary text-white font-medium md:text-sm text-xs leading-heading hover:cursor-pointer">
               Resume
             </div>
           </div>
@@ -77,7 +73,7 @@ const Header = () => {
             >
               <TwitterLogo weight="duotone" className="md:w-6 md:h-6 w-5 h-5" />
             </Link>
-            <span className="pointer-events-none absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-xs p-1 rounded hover:delay-200 text-center">
+            <span className="pointer-events-none font-medium absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-xs p-1 rounded hover:delay-200 text-center">
               Twitter
             </span>
           </div>
@@ -93,7 +89,7 @@ const Header = () => {
                 className="md:w-6 md:h-6 w-5 h-5"
               />
             </Link>
-            <span className="pointer-events-none absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-center text-xs py-1 px-2 rounded hover:delay-200">
+            <span className="pointer-events-none font-medium absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-center text-xs py-1 px-2 rounded hover:delay-200">
               LinkedIn
             </span>
           </div>
@@ -106,7 +102,7 @@ const Header = () => {
             >
               <GithubLogo weight="duotone" className="md:w-6 md:h-6 w-5 h-5" />
             </Link>
-            <span className="pointer-events-none absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-xs text-center p-1 rounded hover:delay-200">
+            <span className="pointer-events-none font-medium absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-xs text-center p-1 rounded hover:delay-200">
               Github
             </span>
           </div>

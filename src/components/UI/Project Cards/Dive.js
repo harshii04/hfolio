@@ -1,12 +1,14 @@
+"use client";
 import Image from "next/image";
 import D01 from "../../../assets/ProjectImgs/Dive/Dive.svg";
 import AboutPrj from "../AboutPrj";
 import projectData from "../../../../Data/ProjectData";
+import { motion } from "framer-motion";
 
 const ProjectCard = () => {
   const prj = projectData.projects[2];
   return (
-    <>
+    <motion.div>
       <div className=" bg-purple-card md:py-12 md:px-8 py-8 px-4 flex flex-col gap-12 shadow-main-inner-shadow">
         <div>
           <p className="font-medium md:text-3xl text-2xl leading-heading text-text-primary">
@@ -33,7 +35,7 @@ const ProjectCard = () => {
           />
         ) : null;
       })} */}
-    </>
+    </motion.div>
   );
 };
 

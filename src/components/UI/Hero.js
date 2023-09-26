@@ -8,17 +8,17 @@ const Hero = () => {
       <div className="container md:pt-48 pt-28 flex flex-col md:gap-8 gap-6">
         <div className="flex items-center gap-2 px-4 py-2 bg-gray-new shadow-main-inner-shadow w-fit rounded-full ">
           <span className="h-2 w-2 rounded-full bg-green-500 opacity-75"></span>
-          <span className="md:text-sm text-xs  text-text-secondary leading-heading">
+          <span className="md:text-sm text-xs  text-text-secondary leading-heading font-medium">
             Avaliable for work
           </span>
         </div>
         <div>
-          <p className="font-bold lg:text-7xl text-5xl leading-heading text-text-primary  ">
+          <p className="font-bold md:text-[80px] text-5xl md:leading-heading leading-mobile-heading text-text-primary tracking-tight-2 ">
             Curious designer, Storyteller, Crafting Experiences & Interactions
           </p>
         </div>
         <div>
-          <p className="font-normal md:text-2xl text-lg leading-heading text-text-secondary">
+          <p className="font-medium md:text-2xl text-lg leading-body text-text-secondary tracking-[-0.48px]">
             I’m based out of India, was formerly at Avalon Scenes and Dive.
           </p>
         </div>

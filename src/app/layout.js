@@ -1,33 +1,32 @@
 import "./globals.css";
 import localFont from "next/font/local";
-import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "@/components/Footer";
 
-// const satoshi = localFont({
-//   src: [
-//     {
-//       path: "public/fonts/Satoshi-Black.woff2",
-//       weight: "900",
-//     },
-//     {
-//       path: "/public/fonts/Satoshi-Bold.woff2",
-//       weight: "700",
-//     },
-//     {
-//       path: "/public/fonts/Satoshi-Medium.woff2",
-//       weight: "500",
-//     },
-//     {
-//       path: "/public/fonts/Satoshi-Regular.woff2",
-//       weight: "400",
-//     },
-//     {
-//       path: "/public/fonts/Satoshi-Light.woff2",
-//       weight: "300",
-//     },
-//   ],
-// });
+const satoshi = localFont({
+  src: [
+    {
+      path: "../app/fonts/Satoshi-Black.woff2",
+      weight: "900",
+    },
+    {
+      path: "../app/fonts/Satoshi-Bold.woff2",
+      weight: "700",
+    },
+    {
+      path: "../app/fonts/Satoshi-Medium.woff2",
+      weight: "500",
+    },
+    {
+      path: "../app/fonts/Satoshi-Regular.woff2",
+      weight: "400",
+    },
+    {
+      path: "../app/fonts/Satoshi-Light.woff2",
+      weight: "300",
+    },
+  ],
+});
 
 export const metadata = {
   title: "Harshvardhan Agarwal",
@@ -36,8 +35,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="scroll-smooth">
+      <body className={satoshi.className}>
+        {/* <Image
+          src={noise}
+          alt="This is my bg"
+          className="absolute top-0 bottom-0 left-0 right-0 object-cover z-0 w-full h-full"
+        /> */}
+        {children}
+      </body>
+      <Footer />
     </html>
   );
 }
