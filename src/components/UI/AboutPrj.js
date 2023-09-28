@@ -6,11 +6,7 @@ import { motion } from "framer-motion";
 const AboutPrj = ({ role, tools, timeline, description, content, link }) => {
   return (
     <>
-      <div
-        className="md:flex md:flex-row flex-col items-start justify-between md:pt-8 md:gap-24 gap-8"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-      >
+      <div className="md:flex md:flex-row flex-col items-start justify-between md:pt-8 md:gap-24 gap-8">
         <div className="flex flex-row justify-between items-start md:flex-col gap-8 md:pb-0 pb-6 flex-wrap">
           <div className="flex flex-col gap-2">
             <p className="font-normal text-xs leading-heading text-text-secondary">

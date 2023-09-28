@@ -36,15 +36,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={satoshi.className}>
-        {/* <Image
-          src={noise}
-          alt="This is my bg"
-          className="absolute top-0 bottom-0 left-0 right-0 object-cover z-0 w-full h-full"
-        /> */}
-        {children}
-      </body>
-      <Footer />
+      <body className={satoshi.className}>{children}</body>
     </html>
   );
 }

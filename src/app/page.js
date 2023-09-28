@@ -6,6 +6,7 @@ import Header from "@/components/UI/Header";
 import Hero from "@/components/UI/Hero";
 import VisualBg from "@/components/VisualBg";
 import About from "../components/About";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Experience />
       <About />
       <Contact />
+      <Footer />
     </>
   );
 }

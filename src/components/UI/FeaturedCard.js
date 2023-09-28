@@ -9,7 +9,12 @@ const FeaturedCard = ({ link, img, tag, heading, content }) => {
       <Link href={link} target="_blank" draggable={false}>
         <div className="group flex flex-col gap-8 p-2 hover:bg-gray-new hover:cursor-pointer hover:rounded-xl transition-all duration-300 ease-in-out">
           <div>
-            <Image src={img} alt="Featured project image " draggable={false} />
+            <Image
+              src={img}
+              alt="Featured project image "
+              draggable={false}
+              className="rounded-lg"
+            />
           </div>
           <div className="flex flex-col gap-4">
             <div className="rounded-full px-2 py-[2px] border w-fit border-tag-stroke bg-tag-fill leading-heading font-medium">

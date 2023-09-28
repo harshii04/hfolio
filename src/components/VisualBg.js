@@ -4,7 +4,7 @@ import WIP from "../assets/Visual Bg.png";
 const VisualBg = () => {
   return (
     <>
-      <div className="flex flex-col gap-16 items-center md:pt-32 pt-24">
+      <div className="flex flex-col gap-16 items-center md:pt-56 pt-24">
         <p className="container text-center font-bold text-text-secondary text-2xl leading-heading">
           Some of my <span className="text-text-primary">work </span>that is{" "}
           <span className="text-text-primary">out there</span> on the{" "}

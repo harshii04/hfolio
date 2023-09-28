@@ -9,8 +9,12 @@ const Header = () => {
     <>
       {/* This is the image and the name, description section of the header. */}
       <div className="container pt-8 flex items-center justify-between">
-        <div className="flex md:gap-2 gap-1 items-center">
-          <Image src={Sushi} alt="Header Img" className="w-auto h-auto" />
+        <div className="flex md:gap-2 gap-2 items-center">
+          <Image
+            src={Sushi}
+            alt="Header Img"
+            className="md:w-auto md:h-auto w-8 h-10"
+          />
           <div className="flex flex-col gap-1">
             <p className="md:text-sm font-bold text-xs text-zinc-900 leading-heading">
               Harshvardhan Agarwal
@@ -51,7 +55,7 @@ const Header = () => {
             </div>
             <div className="p-4">
               <Link
-                href={"/about"}
+                href={"/blogs"}
                 className="md:text-sm text-xs font-medium text-text-secondary leading-heading"
               >
                 Blogs

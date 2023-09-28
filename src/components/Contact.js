@@ -4,7 +4,7 @@ import { Copy } from "@phosphor-icons/react";
 const Contact = () => {
   return (
     <>
-      <div className="container md:pt-36 pt-24 flex flex-col items-center justify-center gap-8">
+      <div className="container md:pt-56 pt-24 flex flex-col items-center justify-center gap-8">
         <div className="flex flex-col items-center gap-4">
           <p className="text-text-primary font-semibold md:text-4xl text-2xl leading-heading">
             Say Hello!

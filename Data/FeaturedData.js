@@ -1,7 +1,7 @@
-import IMG01 from "../src/assets/FeaturedPrjs/Bento Img.svg";
-import IMG02 from "../src/assets/FeaturedPrjs/Figma Plugin Img.svg";
-import IMG03 from "../src/assets/FeaturedPrjs/Hackathon Img.svg";
-import IMG04 from "../src/assets/FeaturedPrjs/Freelance.svg";
+import IMG01 from "../src/assets/FeaturedPrjs/Bento Img.png";
+import IMG02 from "../src/assets/FeaturedPrjs/Figma Plugin Img.png";
+import IMG03 from "../src/assets/FeaturedPrjs/Hackathon Img.png";
+import IMG04 from "../src/assets/FeaturedPrjs/Freelance.png";
 
 const featuredData = {
   featured: [

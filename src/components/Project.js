@@ -4,15 +4,17 @@ import Dive from "../components/UI/Project Cards/Dive";
 const Project = () => {
   return (
     <>
-      <div className="container pt-36 flex flex-col gap-10">
-        <div className="px-6 py-3 items-center bg-heading-yellow w-fit rounded-full rotate-[-4deg]">
-          <p className="font-medium text-text-secondary md:text-2xl text-lg leading-heading">
+      <div className="container md:pt-36 pt-16 flex flex-col gap-12">
+        <div>
+          <p className="font-bold text-text-primary md:text-5xl text-3xl leading-heading">
             Selected Work
           </p>
         </div>
-        <POA />
-        <GFO />
-        <Dive />
+        <div className="flex flex-col md:gap-24 gap-12">
+          <POA />
+          <GFO />
+          <Dive />
+        </div>
       </div>
     </>
   );

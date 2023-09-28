@@ -4,8 +4,8 @@ import experienceData from "../../Data/ExperienceData";
 const Experience = () => {
   return (
     <>
-      <div className="container md:pt-36 pt-24">
-        <p className="font-medium text-text-secondary text-2xl leading-heading">
+      <div className="container md:pt-56 pt-24">
+        <p className="font-bold text-text-primary md:text-5xl text-3xl leading-heading">
           Experience
         </p>
         {experienceData.experiences.map((experience, index) => {
