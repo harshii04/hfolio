@@ -36,7 +36,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={satoshi.className}>{children}</body>
+      <body suppressHydrationWarning={true} className={satoshi.className}>
+        {children}
+      </body>
     </html>
   );
 }
