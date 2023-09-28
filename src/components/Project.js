@@ -4,7 +4,7 @@ import Dive from "../components/UI/Project Cards/Dive";
 const Project = () => {
   return (
     <>
-      <div className="container md:pt-36 pt-16 flex flex-col gap-12">
+      <div className="container md:pt-36 pt-32 flex flex-col gap-12">
         <div>
           <p className="font-bold text-text-primary md:text-5xl text-3xl leading-heading">
             Selected Work

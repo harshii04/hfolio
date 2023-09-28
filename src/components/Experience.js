@@ -4,7 +4,7 @@ import experienceData from "../../Data/ExperienceData";
 const Experience = () => {
   return (
     <>
-      <div className="container md:pt-56 pt-24">
+      <div className="container md:pt-56 pt-32">
         <p className="font-bold text-text-primary md:text-5xl text-3xl leading-heading">
           Experience
         </p>

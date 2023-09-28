@@ -6,7 +6,7 @@ import CoverIMG from "../assets/Cover Img.png";
 const About = () => {
   return (
     <>
-      <div className="container md:pt-56 pt-24 flex flex-col items-center justify-center">
+      <div className="container md:pt-56 pt-32 flex flex-col items-center justify-center">
         <p className="font-bold text-text-primary md:text-5xl text-3xl leading-heading">
           About Me
         </p>
