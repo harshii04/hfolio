@@ -26,7 +26,7 @@ const Header = () => {
         </div>
 
         {/* This is the navbar section. */}
-        <div className="fixed left-1/2 transform -translate-x-1/2 bottom-0 -translate-y-[90%] md:top-6 md:translate-y-0 z-40 !h-fit">
+        <div className="fixed left-1/2 transform -translate-x-1/2 -bottom-6 -translate-y-[90%] md:top-6 md:translate-y-0 z-40 !h-fit">
           <div className="flex items-center justify-between px-2 rounded-full bg-white bg-opacity-70 shadow-nav-shadow border border-border-stroke backdrop-blur-lg">
             <div className="p-4 cursor-pointer">
               <Link

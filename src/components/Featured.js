@@ -9,7 +9,7 @@ const Featured = () => {
           <p className="font-bold text-text-primary md:text-5xl text-3xl leading-heading">
             Featured Work
           </p>
-          <div className=" grid md:grid-cols-2 grid-cols-1 md:gap-8 gap-4 pt-8 flex-wrap">
+          <div className=" grid md:grid-cols-2 grid-cols-1 md:gap-8 gap-8 pt-8 flex-wrap">
             {featureData.featured.map((feature, index) => {
               return (
                 <div key={index}>
