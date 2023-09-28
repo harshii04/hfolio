@@ -3,7 +3,6 @@ import Image from "next/image";
 import D01 from "../../../assets/ProjectImgs/Dive/Dive.png";
 import AboutPrj from "../AboutPrj";
 import projectData from "../../../../Data/ProjectData";
-import { motion } from "framer-motion";
 
 const ProjectCard = () => {
   const prj = projectData.projects[2];

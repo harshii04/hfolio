@@ -1,7 +1,6 @@
 "use client";
 import { ArrowUpRight } from "@phosphor-icons/react";
 import Link from "next/link";
-import { motion } from "framer-motion";
 
 const AboutPrj = ({ role, tools, timeline, description, content, link }) => {
   return (

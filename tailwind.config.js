@@ -34,8 +34,11 @@ module.exports = {
       },
       boxShadow: {
         "nav-shadow": "0px 10px 10px -5px rgba(0, 0, 0, 0.1);",
-        "main-inner-shadow":
-          "0px 0px 0px 1px rgba(252, 252, 252, 0.32),0px 2px 4px 0px rgba(0, 0, 0, 0.16) inset; 0px 1px 1px 0px rgba(0, 0, 0, 0.12) inset;",
+        "main-inner-shadow": `
+          0px 0px 0px 1px rgba(252, 252, 252, 0.32),
+          0px 2px 4px 0px rgba(0, 0, 0, 0.16) inset,
+           0px 1px 1px 0px rgba(0, 0, 0, 0.12) inset;
+          `,
       },
     },
   },

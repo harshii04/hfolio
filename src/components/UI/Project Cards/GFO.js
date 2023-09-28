@@ -1,12 +1,11 @@
 "use client";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import AboutPrj from "../AboutPrj";
+import projectData from "../../../../Data/ProjectData";
 import GFO1 from "../../../assets/ProjectImgs/GFO/GFO01.png";
 import GFO2 from "../../../assets/ProjectImgs/GFO/GFO02.png";
 import GFO3 from "../../../assets/ProjectImgs/GFO/GFO03.png";
 import GFO4 from "../../../assets/ProjectImgs/GFO/GFO04.png";
-import AboutPrj from "../AboutPrj";
-import projectData from "../../../../Data/ProjectData";
 
 const ProjectCard = () => {
   const prj = projectData.projects[0];

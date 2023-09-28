@@ -1,18 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import CoverIMG from "../assets/Cover Img.png";
 
 const About = () => {
   return (
     <>
-      <motion.div
-        className="container md:pt-56 pt-24 flex flex-col items-center justify-center"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-      >
+      <div className="container md:pt-56 pt-24 flex flex-col items-center justify-center">
         <p className="font-bold text-text-primary md:text-5xl text-3xl leading-heading">
           About Me
         </p>
@@ -43,13 +37,13 @@ const About = () => {
               Having an engineering background I have experienced with both
               design and web development, because of which I have a good
               understanding of different tech stacks and their possibilities.
-              This helps me empathise with both designers and developers, trying
+              This helps me empathies with both designers and developers, trying
               to find elegant solutions which are both functionally and visually
               pleasing but are always within the technical constraints.
             </p>
           </div>
         </div>
-      </motion.div>
+      </div>
     </>
   );
 };

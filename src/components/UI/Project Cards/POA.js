@@ -1,12 +1,11 @@
 "use client";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import AboutPrj from "../AboutPrj";
+import projectData from "../../../../Data/ProjectData";
 import PSA1 from "../../../assets/ProjectImgs/PSA/PSA01.png";
 import PSA2 from "../../../assets/ProjectImgs/PSA/PSA02.png";
 import PSA3 from "../../../assets/ProjectImgs/PSA/PSA03.png";
 import PSA4 from "../../../assets/ProjectImgs/PSA/PSA04.png";
-import AboutPrj from "../AboutPrj";
-import projectData from "../../../../Data/ProjectData";
 
 const ProjectCard = () => {
   const prj = projectData.projects[1];

@@ -9,12 +9,12 @@
 
 
 
-body {
+/* body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   transform: translateZ(0);
-}
+} */
 
 
 .container {
