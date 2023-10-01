@@ -5,8 +5,8 @@ import Link from "next/link";
 const AboutPrj = ({ role, tools, timeline, description, content, link }) => {
   return (
     <>
-      <div className="md:flex md:flex-row flex-col items-start justify-between md:pt-8 md:gap-24 gap-8">
-        <div className="flex flex-row justify-between items-start md:flex-col gap-8 md:pb-0 pb-6 flex-wrap">
+      <div className="md:flex md:flex-row flex-col items-start justify-between pt-4 md:gap-24 gap-8">
+        <div className="flex flex-row justify-between items-start md:flex-col gap-8 md:pb-0 pb-6 flex-wrap md:w-[20%]">
           <div className="flex flex-col gap-2">
             <p className="font-normal text-xs leading-heading text-text-secondary">
               MY ROLE
@@ -32,20 +32,20 @@ const AboutPrj = ({ role, tools, timeline, description, content, link }) => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col gap-2 md:pb-0 pb-6">
+        <div className="flex flex-col gap-2 md:pb-0 pb-6 md:w-[40%]">
           <p className="font-normal text-xs leading-heading text-text-secondary">
             DESCRIPTION
           </p>
-          <p className="text-text-primary leading-body md:text-lg text-base font-medium">
+          <p className="text-text-primary leading-body md:text-lg text-base font-medium ">
             {description}
           </p>
         </div>
-        <div className="flex flex-col md:gap-6 gap-2">
+        <div className="flex flex-col md:gap-8 gap-2 md:w-[40%]">
           <div className="flex flex-col gap-2 md:pb-0 pb-6">
             <p className="font-normal text-xs leading-heading text-text-secondary">
               CONTENT
             </p>
-            <p className="text-text-primary leading-body md:text-lg text-base font-medium">
+            <p className="text-text-primary leading-body md:text-lg text-base font-medium ">
               {content}
             </p>
           </div>

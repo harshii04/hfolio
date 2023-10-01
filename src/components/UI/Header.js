@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       {/* This is the image and the name, description section of the header. */}
-      <div className="container pt-8 flex items-center justify-between">
+      <div className="container pt-8 flex items-center justify-between z-10">
         <div className="flex md:gap-2 gap-2 items-center">
           <Image
             src={Sushi}

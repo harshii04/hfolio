@@ -33,7 +33,7 @@ const featuredData = {
     },
     {
       id: 4,
-      link: "",
+      link: "https://www.linkedin.com/company/giakaa/",
       img: IMG04,
       tag: "Freelance Project",
       heading: "Web3 Agency Landing Page",

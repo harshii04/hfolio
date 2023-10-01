@@ -2,8 +2,9 @@ import "./globals.css";
 import localFont from "next/font/local";
 
 import Footer from "@/components/Footer";
+import Header from "@/components/UI/Header";
 
-const satoshi = localFont({
+const Satoshi = localFont({
   src: [
     {
       path: "../app/fonts/Satoshi-Black.woff2",
@@ -36,8 +37,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true} className={satoshi.className}>
+      <body suppressHydrationWarning={true} className={Satoshi.className}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
