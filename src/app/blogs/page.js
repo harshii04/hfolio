@@ -2,11 +2,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import IMG from "../../assets/Empty State.png";
+import { ArrowRight } from "@phosphor-icons/react";
 
 const NotFound = () => {
   return (
     <>
-      <div className="container flex flex-col gap-6 items-center justify-center h-full w-full">
+      <div className="container flex flex-col gap-6 items-center justify-center h-screen w-screen">
         <Image
           src={IMG}
           alt="This is 404 page, nothing to do here"
@@ -21,9 +22,10 @@ const NotFound = () => {
 
         <Link
           href="/"
-          className="px-3 py-2 bg-text-primary font-medium text-white text-sm rounded-full"
+          className=" flex items-center justify-center gap-2 px-4 py-2 bg-text-primary font-medium text-white text-base rounded-full hover:bg-opacity-90 duration-300 ease-in-out"
         >
           Go back
+          <ArrowRight size={16} color="#FFFFFF" />
         </Link>
       </div>
     </>

@@ -4,7 +4,7 @@ import { CaretDown } from "@phosphor-icons/react";
 const Hero = () => {
   return (
     <>
-      <div className="container flex flex-col md:gap-8 gap-6 md:h-screen mt-24 justify-center">
+      <div className="container flex flex-col md:gap-8 gap-6 md:h-screen md:mt-0 mt-24 justify-center">
         <div className="flex items-center gap-2 px-4 py-2 bg-gray-new shadow-main-inner-shadow w-fit rounded-full ">
           <span className="h-2 w-2 rounded-full bg-green-500 opacity-75"></span>
           <span className="md:text-sm text-xs  text-text-secondary leading-heading font-medium">

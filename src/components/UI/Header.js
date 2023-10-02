@@ -26,6 +26,7 @@ const Header = () => {
         </div>
 
         {/* This is the navbar section. */}
+
         <div className="fixed left-1/2 transform -translate-x-1/2 -bottom-6 -translate-y-[90%] md:top-6 md:translate-y-0 z-40 !h-fit">
           <div className="flex items-center justify-between px-2 rounded-full bg-white bg-opacity-70 shadow-nav-shadow border border-border-stroke backdrop-blur-lg">
             <div className="p-4 cursor-pointer">
@@ -39,29 +40,30 @@ const Header = () => {
             <div className="p-4">
               {" "}
               <Link
-                href={"/work"}
-                className="md:text-sm text-xs  font-medium text-text-secondary leading-heading"
+                href={"#work"}
+                className="md:text-sm text-xs  font-medium text-text-primary leading-heading"
               >
                 Work
               </Link>{" "}
             </div>
             <div className="p-4">
               <Link
-                href={"/about"}
-                className="md:text-sm text-xs font-medium text-text-secondary leading-heading"
+                href={"#experience"}
+                className="md:text-sm text-xs font-medium text-text-primary leading-heading"
               >
-                About
+                Experience
               </Link>
             </div>
             <div className="p-4">
               <Link
-                href={"/blogs"}
-                className="md:text-sm text-xs font-medium text-text-secondary leading-heading"
+                href={"#about"}
+                className="md:text-sm text-xs font-medium text-text-primary leading-heading"
               >
-                Blogs
+                About
               </Link>
             </div>
-            <div className="px-4 py-2 rounded-full bg-text-primary text-white font-medium md:text-sm text-xs leading-heading hover:cursor-pointer">
+
+            <div className="px-4 py-2 rounded-full bg-text-primary text-white font-medium md:text-sm text-xs hover:bg-opacity-90 leading-heading hover:cursor-pointer transition-all duration-300 ease-in-out">
               Resume
             </div>
           </div>
