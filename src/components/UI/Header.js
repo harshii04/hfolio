@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       {/* This is the image and the name, description section of the header. */}
-      <div className="container pt-8 flex items-center justify-between z-10">
+      <div className="container pt-8 flex items-center justify-between">
         <div className="flex md:gap-2 gap-2 items-center">
           <Image
             src={Sushi}
@@ -27,7 +27,8 @@ const Header = () => {
 
         {/* This is the navbar section. */}
 
-        <div className="fixed left-1/2 transform -translate-x-1/2 -bottom-6 -translate-y-[90%] md:top-6 md:translate-y-0 z-40 !h-fit">
+        {/* <div className="fixed left-1/2 transform -translate-x-1/2 bottom-0 -translate-y-[90%] md:top-6 md:translate-y-0 z-40 !h-fit"> */}
+        {/* <div className="fixed">
           <div className="flex items-center justify-between px-2 rounded-full bg-white bg-opacity-70 shadow-nav-shadow border border-border-stroke backdrop-blur-lg">
             <div className="p-4 cursor-pointer">
               <Link
@@ -67,7 +68,7 @@ const Header = () => {
               Resume
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* This is the social links of the header. */}
         <div className="flex gap-2">
@@ -111,6 +112,9 @@ const Header = () => {
             <span className="pointer-events-none font-medium absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-xs text-center p-1 rounded hover:delay-200">
               Github
             </span>
+          </div>
+          <div className="px-4 py-2 rounded-lg bg-text-primary text-white font-bold md:text-sm text-xs hover:bg-opacity-90 leading-heading hover:cursor-pointer transition-all duration-300 ease-in-out">
+            Resume
           </div>
         </div>
       </div>
