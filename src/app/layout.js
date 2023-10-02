@@ -38,6 +38,13 @@ export const metadata = {
     shortcut: ["/apple-touch-icon.png"],
   },
   manifest: "/site.webmanifest",
+
+  twitter: {
+    title: "Harshvardhan Agarwal | Product Designer",
+    description: "I'm am an engineer turned product designer.",
+    creator: "@harshii04",
+    images: ["/src/app/twitter-image.png"],
+  },
 };
 
 export default function RootLayout({ children }) {
