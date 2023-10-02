@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 import Image from "next/image";
-import CoverIMG from "../assets/Cover Img.png";
+import CoverIMG from "../assets/Cover Img.webp";
 
 const About = () => {
   return (

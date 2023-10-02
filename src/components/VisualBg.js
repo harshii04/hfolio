@@ -1,5 +1,5 @@
 import Image from "next/image";
-import WIP from "../assets/Visual Bg.png";
+import WIP from "../assets/Visual Bg.webp";
 
 const VisualBg = () => {
   return (
