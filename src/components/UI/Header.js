@@ -77,6 +77,7 @@ const Header = () => {
               href={"https://twitter.com/harshii04"}
               className="leading-heading text-text-secondary hover:text-text-primary transition-all duration-300 ease-in-out"
               target="_blank"
+              draggable={false}
             >
               <TwitterLogo weight="duotone" className="md:w-6 md:h-6 w-5 h-5" />
             </Link>
@@ -90,6 +91,7 @@ const Header = () => {
               href={"https://www.linkedin.com/in/harshui/"}
               className="leading-heading text-text-secondary hover:text-text-primary transition-all duration-300 ease-in-out"
               target="_blank"
+              draggable={false}
             >
               <LinkedinLogo
                 weight="duotone"
@@ -106,6 +108,7 @@ const Header = () => {
               href="https://github.com/harshii04"
               className="leading-heading text-text-secondary hover:text-text-primary transition-all duration-300 ease-in-out"
               target="_blank"
+              draggable={false}
             >
               <GithubLogo weight="duotone" className="md:w-6 md:h-6 w-5 h-5" />
             </Link>
@@ -114,7 +117,13 @@ const Header = () => {
             </span>
           </div>
           <div className="px-4 py-2 rounded-lg bg-text-primary text-white font-bold md:text-sm text-xs hover:bg-opacity-90 leading-heading hover:cursor-pointer transition-all duration-300 ease-in-out">
-            Resume
+            <Link
+              href="https://drive.google.com/file/d/1fMhwOR85IwiQvnwfK0VEcvarirDPpk4Q/view?usp=sharing"
+              target="_blank"
+              draggable={false}
+            >
+              Resume
+            </Link>
           </div>
         </div>
       </div>
