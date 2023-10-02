@@ -1,6 +1,6 @@
 import "./globals.css";
 import localFont from "next/font/local";
-
+import { Analytics } from "@vercel/analytics/react";
 import Footer from "@/components/Footer";
 import Header from "@/components/UI/Header";
 
@@ -45,6 +45,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body suppressHydrationWarning={true} className={Satoshi.className}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
