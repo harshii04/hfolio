@@ -12,7 +12,7 @@ const Footer = () => {
             © {year} Harshvardhan Agarwal. All rights reserved.
           </p>
           <p className="text-xs text-text-secondary text-center leading-heading font-medium">
-            Made with love, missing some classes and overdose of caffine.
+            Made with love, missing some classes and overdose of caffeine.
           </p>
         </div>
 
