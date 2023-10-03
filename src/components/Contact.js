@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Copy } from "@phosphor-icons/react";
+import Link from "next/link";
 
 const Contact = () => {
   const [copyStatus, setCopyStatus] = useState(false);
@@ -27,7 +27,13 @@ const Contact = () => {
         </div>
         <div className="flex md:flex-row flex-col md:gap-2 gap-4 items-center">
           <div className="text-text-primary bg-white md:text-xl text-lg font-bold leading-heading px-4 h-[3.5rem] items-center flex gap-2 rounded-lg">
-            agarwal.harsh2021@gmail.com
+            <Link
+              href="mailto:agarwal.harsh2021@gmail.com"
+              target="_blank"
+              draggable={false}
+            >
+              agarwal.harsh2021@gmail.com
+            </Link>
           </div>
 
           <button
