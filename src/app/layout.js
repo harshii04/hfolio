@@ -32,6 +32,7 @@ export const metadata = {
   type: "Portfolio",
   author: "Harshvardhan Agarwal",
   description: "I'm a product designer currently pursuing engineering.",
+  theme: "light",
   icons: {
     icon: ["/favicon.ico"],
     apple: ["/apple-touch-icon.png"],
