@@ -40,7 +40,7 @@ const About = () => {
               Having an engineering background I have experienced with both
               design and web development, because of which I have a good
               understanding of different tech stacks and their possibilities.
-              This helps me empathies with both designers and developers, trying
+              This helps me empathize with both designers and developers, trying
               to find elegant solutions which are both functionally and visually
               pleasing but are always within the technical constraints.
             </p>
