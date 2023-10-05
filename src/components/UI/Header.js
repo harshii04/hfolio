@@ -3,6 +3,7 @@ import Image from "next/image";
 import Sushi from "../../assets/Header Illustration.svg";
 import Link from "next/link";
 import { GithubLogo, LinkedinLogo, TwitterLogo } from "@phosphor-icons/react";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
