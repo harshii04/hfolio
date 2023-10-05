@@ -30,18 +30,18 @@ const About = () => {
               of an engineer.
             </p>
             <p className="text-text-secondary font-medium md:text-2xl text-xl leading-body ">
-              I started designing since my first year of college when I was
-              introduced about design by one of seniors, since then I have
-              become a well rounded designer who feels comfortable throughout
+              I started designing in my first year of college when I was
+              introduced to design by one of my seniors, since then I have
+              become a well-rounded designer who feels comfortable throughout
               the whole process of creating digital products from start to
               finish.
             </p>
             <p className="text-text-secondary font-medium md:text-2xl text-xl leading-body ">
-              Having an engineering background I have experienced with both
+              Having an engineering background I have experience with both
               design and web development, because of which I have a good
               understanding of different tech stacks and their possibilities.
               This helps me empathize with both designers and developers, trying
-              to find elegant solutions which are both functionally and visually
+              to find elegant solutions that are both functionally and visually
               pleasing but are always within the technical constraints.
             </p>
           </div>

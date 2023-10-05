@@ -17,7 +17,7 @@ const ExperienceData = {
       timeline: "Jan '22 - Mar '23",
       role: "Product Design Intern",
       about:
-        "I owned a game design project (i.e, Word Pirate) that was part of the dive platform and also did redesign of existing games.",
+        "I owned a game design project (i.e., Word Pirate) that was part of the dive platform and also did a redesign of existing games.",
     },
     {
       id: 3,
@@ -26,7 +26,7 @@ const ExperienceData = {
       timeline: "Sep '21 - Dec '21",
       role: "Product Design Intern",
       about:
-        "I worked on the redesign on the quiz app for the platform, collaborated with other designers on a new eLearning platform.",
+        "I worked on the redesign of the quiz app for the platform and collaborated with other designers on a new eLearning platform.",
     },
   ],
 };

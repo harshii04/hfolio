@@ -29,7 +29,8 @@ const featuredData = {
       img: IMG03,
       tag: "Hackathon Project",
       heading: "Betokenized",
-      content: "Hackathon projects for which we won best UI/ UX design award.",
+      content:
+        "A hackathon project for which we won the award for best UI/UX design.",
     },
     {
       id: 4,
@@ -38,7 +39,7 @@ const featuredData = {
       tag: "Freelance Project",
       heading: "Web3 Agency Landing Page",
       content:
-        "I designed the landing page for a web3 service agency named Giakaa, currently this website is under development, will update with the link soon!",
+        "I designed the landing page for a web3 service agency named Giakaa, currently, this website is under development, will update you with the link soon!",
     },
   ],
 };

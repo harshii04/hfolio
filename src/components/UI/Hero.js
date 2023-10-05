@@ -13,12 +13,12 @@ const Hero = () => {
         </div>
         <div>
           <p className="font-bold md:text-[80px] text-5xl md:leading-heading leading-mobile-heading text-text-primary tracking-tight-2 ">
-            Curious designer, Storyteller, Crafting Experiences & Interactions
+            Curious designer, Crafting Experiences & Interactions
           </p>
         </div>
         <div>
           <p className="font-medium md:text-2xl text-xl leading-body text-text-secondary tracking-[0.48px]">
-            I’m based out of India, was formerly at Avalon Scenes and Dive.
+            I’m based out of India and was formerly at Avalon Scenes and Dive.
           </p>
         </div>
         <div className="flex gap-2 animate-bounce pt-6 items-center">
