@@ -7,7 +7,7 @@ const FeaturedCard = ({ link, img, tag, heading, content }) => {
   return (
     <>
       <Link href={link} target="_blank" draggable={false}>
-        <div className="group flex flex-col gap-8 p-2 hover:bg-zinc-100 hover:cursor-pointer hover:rounded-xl transition-all duration-300 ease-in-out">
+        <div className="group flex flex-col gap-8 p-2 hover:bg-zinc-100 hover:cursor-pointer hover:rounded-xl transition-all duration-300 ease-in-out h-full">
           <div>
             <Image
               src={img}
