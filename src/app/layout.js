@@ -28,6 +28,7 @@ const Satoshi = localFont({
 });
 
 export const metadata = {
+  metadataBase: "https://www.harshii.works/",
   title: "Harshvardhan Agarwal",
   type: "Portfolio",
   author: "Harshvardhan Agarwal",
@@ -58,3 +59,7 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+// legrange interpolation
+// Homorphic
+// Full and partially

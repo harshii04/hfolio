@@ -16,7 +16,7 @@ const featuredData = {
     },
     {
       id: 2,
-      link: "https://x.com/harshii04/status/1653361157460185091?s=20",
+      link: "https://organisewiz.vercel.app/",
       img: IMG02,
       tag: "Side Project",
       heading: "🪄 Organise Wiz",
