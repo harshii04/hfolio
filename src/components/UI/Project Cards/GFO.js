@@ -12,9 +12,9 @@ const ProjectCard = () => {
   return (
     <>
       <div className="py-8">
-        <div className=" bg-orange-card md:py-12 md:px-8 py-8 px-4 flex flex-col gap-12 shadow-main-inner-shadow md:rounded-2xl rounded-lg">
+        <div className=" bg-orange-card md:py-12 md:px-8 py-8 px-4 flex flex-col gap-12 md:rounded-2xl rounded-lg">
           <div>
-            <p className="font-medium md:text-4xl text-2xl leading-heading text-text-primary">
+            <p className="font-bold md:text-4xl text-2xl leading-heading text-text-primary">
               Group Food Ordering
             </p>
           </div>

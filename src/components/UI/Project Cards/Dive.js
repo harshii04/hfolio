@@ -10,9 +10,9 @@ const ProjectCard = () => {
   return (
     <>
       <div className="md:py-8">
-        <div className=" bg-purple-card md:py-12 md:px-8 py-8 px-4 flex flex-col gap-12 shadow-main-inner-shadow md:rounded-2xl rounded-lg">
+        <div className=" bg-purple-card md:py-12 md:px-8 py-8 px-4 flex flex-col gap-12 md:rounded-2xl rounded-lg">
           <div>
-            <p className="font-medium md:text-3xl text-2xl leading-heading text-text-primary">
+            <p className="font-bold md:text-3xl text-2xl leading-heading text-text-primary">
               Creating Dive Platform's Trivia Game
             </p>
           </div>
