@@ -22,9 +22,11 @@ const FooterNew = () => {
                 </h1>
               </div>
               <div>
-                <span className="text-text-primary text-sm font-semibold leading-heading">
-                  agarwal.harsh2021@gmail.com
-                </span>
+                <Link href="mailto:agarwal.harsh2021@gmail.com" target="_blank">
+                  <span className="text-text-primary text-sm font-semibold leading-heading underline underline-offset-4">
+                    agarwal.harsh2021@gmail.com
+                  </span>
+                </Link>
               </div>
             </div>
             <div className="flex flex-col gap-2">

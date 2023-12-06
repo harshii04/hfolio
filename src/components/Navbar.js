@@ -51,8 +51,11 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href={"/resume"}
+                href={
+                  "https://drive.google.com/file/d/1KmszXaNN4oyJrfciOEQQOxiGjqOchHEM/view?usp=sharing"
+                }
                 className=" text-sm font-semibold text-text-primary hover:underline hover:underline-offset-4 hover:italic transition-all duration-300 ease-in-out leading-heading"
+                target="_blank"
               >
                 Resume
               </Link>
