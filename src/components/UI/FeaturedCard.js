@@ -17,17 +17,17 @@ const FeaturedCard = ({ link, img, tag, heading, content }) => {
             />
           </div>
           <div className="flex flex-col gap-4">
-            <div className="rounded-full px-2 py-[2px] border w-fit border-tag-stroke bg-tag-fill leading-heading font-medium">
-              <p className="text-xs text-purple-text">{tag}</p>
+            <div className="rounded-full px-2 py-[2px] w-fit bg-gray-new border border-gray-200 leading-heading font-medium">
+              <p className="text-xs text-text-secondary">{tag}</p>
             </div>
             <div className="flex flex-col gap-2">
               <div className="flex gap-2">
-                <p className="text-text-primary md:text-xl text-lg font-bold leading-heading group-hover:text-purple-text transition-all duration-300 ease-in-out ">
+                <p className="text-text-primary md:text-xl text-lg font-bold leading-heading transition-all duration-300 ease-in-out ">
                   {heading}
                 </p>
                 <ArrowUpRight
                   size={24}
-                  className="group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-purple-text transition-all duration-300 ease-in-out"
+                  className="group-hover:-translate-y-1 group-hover:translate-x-1 transition-all duration-300 ease-in-out"
                 />
               </div>
 

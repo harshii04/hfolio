@@ -4,10 +4,10 @@ import Dive from "../components/UI/Project Cards/Dive";
 const Project = () => {
   return (
     <>
-      <div className="container pt-24 flex flex-col md:gap-12 gap-8" id="work">
+      <div className="container pt-24 flex flex-col md:gap-4 gap-6" id="work">
         <div>
-          <p className="font-bold text-text-primary md:text-5xl text-3xl leading-heading">
-            Selected Work
+          <p className="font-bold text-text-primary text-2xl leading-heading">
+            Projects
           </p>
         </div>
         <div className="flex flex-col md:gap-8 gap-12">

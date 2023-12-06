@@ -3,14 +3,15 @@ import Image from "next/image";
 import Sushi from "../../assets/Header Illustration.svg";
 import Link from "next/link";
 import { GithubLogo, LinkedinLogo, TwitterLogo } from "@phosphor-icons/react";
-import { motion } from "framer-motion";
+
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
     <>
       {/* This is the image and the name, description section of the header. */}
-      <div className="container pt-8 flex items-center justify-between">
-        <div className="flex md:gap-2 gap-2 items-center">
+      <div className="sticky container pt-8 flex items-center justify-center">
+        {/* <div className="flex md:gap-2 gap-2 items-center">
           <Image
             src={Sushi}
             alt="Header Img"
@@ -24,7 +25,7 @@ const Header = () => {
               Product Designer
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* This is the navbar section. */}
 
@@ -72,7 +73,9 @@ const Header = () => {
         </div> */}
 
         {/* This is the social links of the header. */}
-        <div className="flex gap-2">
+
+        <Navbar />
+        {/* <div className="flex gap-2">
           <div className="group relative w-max p-1">
             <Link
               href={"https://twitter.com/harshii04"}
@@ -80,7 +83,7 @@ const Header = () => {
               target="_blank"
               draggable={false}
             >
-              <TwitterLogo weight="duotone" className="md:w-6 md:h-6 w-5 h-5" />
+              <TwitterLogo weight="regular" className="md:w-6 md:h-6 w-5 h-5" />
             </Link>
             <span className="pointer-events-none font-medium absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-xs p-1 rounded hover:delay-200 text-center">
               Twitter
@@ -95,7 +98,7 @@ const Header = () => {
               draggable={false}
             >
               <LinkedinLogo
-                weight="duotone"
+                weight="regular"
                 className="md:w-6 md:h-6 w-5 h-5"
               />
             </Link>
@@ -111,22 +114,13 @@ const Header = () => {
               target="_blank"
               draggable={false}
             >
-              <GithubLogo weight="duotone" className="md:w-6 md:h-6 w-5 h-5" />
+              <GithubLogo weight="regular" className="md:w-6 md:h-6 w-5 h-5" />
             </Link>
             <span className="pointer-events-none font-medium absolute -top-7 justify-center w-max opacity-0 transition-opacity group-hover:opacity-100 bg-text-primary text-white text-xs text-center p-1 rounded hover:delay-200">
               Github
             </span>
           </div>
-          <div className="px-4 py-2 rounded-lg bg-text-primary text-white font-bold md:text-sm text-xs hover:bg-opacity-90 leading-heading hover:cursor-pointer transition-all duration-300 ease-in-out">
-            <Link
-              href="https://drive.google.com/file/d/1KmszXaNN4oyJrfciOEQQOxiGjqOchHEM/view?usp=sharing"
-              target="_blank"
-              draggable={false}
-            >
-              Resume
-            </Link>
-          </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

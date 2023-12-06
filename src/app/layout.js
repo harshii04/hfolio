@@ -1,31 +1,11 @@
 import "./globals.css";
+import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/react";
+import Navbar from "@/components/Navbar";
+import FooterNew from "@/components/FooterNew";
 
-const Satoshi = localFont({
-  src: [
-    {
-      path: "../app/fonts/Satoshi-Black.woff2",
-      weight: "900",
-    },
-    {
-      path: "../app/fonts/Satoshi-Bold.woff2",
-      weight: "700",
-    },
-    {
-      path: "../app/fonts/Satoshi-Medium.woff2",
-      weight: "500",
-    },
-    {
-      path: "../app/fonts/Satoshi-Regular.woff2",
-      weight: "400",
-    },
-    {
-      path: "../app/fonts/Satoshi-Light.woff2",
-      weight: "300",
-    },
-  ],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: "https://www.harshii.works/",
@@ -52,9 +32,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true} className={Satoshi.className}>
+      <body suppressHydrationWarning={true} className={inter.className}>
+        <Navbar />
         {children}
         <Analytics />
+        <FooterNew />
       </body>
     </html>
   );
