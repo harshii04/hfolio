@@ -35,7 +35,7 @@ const Navbar = () => {
           <ul className="flex md:flex-row flex-col md:gap-4 gap-2 items-start">
             <li>
               <Link
-                href={"#Work"}
+                href="#work"
                 className="font-semibold text-sm  text-text-primary hover:underline hover:underline-offset-4 hover:italic transition-all duration-300 ease-in-out leading-heading"
               >
                 Work

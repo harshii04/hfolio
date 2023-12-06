@@ -3,9 +3,9 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Img1 from "../../assets/Profile Header 1.jpg";
-import Img2 from "../../assets/CollegeImg.jpg";
-import GroupImg from "../../assets/GroupImg 1.jpg";
-import Img3 from "../../assets/CollegeImg06.jpg";
+import Img2 from "../../assets/CollegeImg.svg";
+import GroupImg from "../../assets/GroupImg 1.svg";
+import Img3 from "../../assets/CollegeImg06.svg";
 import Link from "next/link";
 
 const About = () => {
@@ -47,7 +47,7 @@ const About = () => {
                 <Image
                   src={Img1}
                   alt="This is my image"
-                  className="rounded-lg w-auto h-auto -z-10 hover:shadow-imgShadow transition-all duration-300 ease-in-out"
+                  className="rounded-lg w-auto h-auto -z-10 hover:shadow-imgShadow transition-all duration-300 ease-in-out -rotate-3"
                   height={400}
                   width={400}
                   priority
@@ -55,9 +55,8 @@ const About = () => {
                 <Image
                   src={Img2}
                   alt="This is my image"
-                  className="rounded-lg md:absolute md:block hidden -top-2 -right-0 -z-10  w-auto h-auto hover:shadow-imgShadow transition-all duration-300 ease-in-out"
-                  height={300}
-                  width={300}
+                  className="rounded-lg md:absolute md:block hidden top-16 right-4 -z-10  w-72 h-auto rotate-3 hover:shadow-imgShadow transition-all duration-300 ease-in-out"
+            
                 />
               </div>
             </div>
@@ -225,7 +224,7 @@ const About = () => {
               <h1 className="font-bold text-sm text-text-primary tracking-wide leading-heading">
                 Product Design Intern @{" "}
                 <Link
-                  href=""
+                  href="https://www.buildonscenes.com/"
                   target="_blank"
                   className="underline underline-offset-2"
                 >
@@ -241,7 +240,7 @@ const About = () => {
               <h1 className="font-bold text-sm text-text-primary tracking-wide leading-heading">
                 Product Design Intern @{" "}
                 <Link
-                  href=""
+                  href="https://www.letsdive.io/"
                   target="_blank"
                   className="underline underline-offset-2 "
                 >
@@ -257,7 +256,7 @@ const About = () => {
               <h1 className="font-bold text-sm text-text-primary tracking-wide leading-heading">
                 Product Design Intern @{" "}
                 <Link
-                  href=""
+                  href="https://www.winuall.com/"
                   target="_blank"
                   className="underline underline-offset-2 "
                 >
@@ -273,7 +272,7 @@ const About = () => {
               <h1 className="font-bold text-sm text-text-primary tracking-wide leading-heading">
                 Product Design Intern @{" "}
                 <Link
-                  href=""
+                  href="https://www.pebbl.life/"
                   target="_blank"
                   className="underline underline-offset-2 "
                 >

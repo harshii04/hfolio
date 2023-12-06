@@ -49,16 +49,16 @@ const AboutPrj = ({ role, tools, timeline, description, content, link }) => {
               {content}
             </p>
           </div>
-          {/* 
+
           <Link
             href={link}
             target="_blank"
             draggable={false}
-            className=" group flex gap-2 py-3 px-3 rounded-full border-2 border-border-stroke hover:border-text-primary hover:bg-text-primary hover:text-white text-text-primary items-center justify-center font-medium transition-all duration-300 ease-in-out"
+            className=" group md:hidden flex gap-2 py-3 px-3 rounded-full border-2 border-border-stroke hover:border-text-primary hover:bg-text-primary hover:text-white text-text-primary items-center justify-center font-medium transition-all duration-300 ease-in-out"
           >
             Read Case Study
             <ArrowUpRight size={16} className="hover:text-white" />
-          </Link> */}
+          </Link>
         </div>
       </div>
     </>
