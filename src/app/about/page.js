@@ -56,7 +56,6 @@ const About = () => {
                   src={Img2}
                   alt="This is my image"
                   className="rounded-lg md:absolute md:block hidden top-16 right-4 -z-10  w-72 h-auto rotate-3 hover:shadow-imgShadow transition-all duration-300 ease-in-out"
-            
                 />
               </div>
             </div>
@@ -87,27 +86,27 @@ const About = () => {
                     and graduating in May 2025.
                   </p>
                   <p className="py-2 font-normal text-text-primary md:text-base text-sm leading-body">
-                    For a long time, I’ve been designing spaces that people can
-                    enjoy strolling around, always striving to curate an
-                    engaging human experience as they navigate the built
-                    environment. Throughout this journey, I’ve been curious
-                    about understanding human interaction to build more
-                    intuitive things – there are many complexities in human
-                    relationships with nature and architecture with so much
-                    still to explore.
+                    For quite some time, my focus has been crafting spaces that
+                    invite people to wander and relish, aiming always to curate
+                    immersive human experiences within the built environment.
+                    This journey has fueled my curiosity about human
+                    interaction, propelling me to create more intuitive designs.
+                    The intricacies of human relationships with nature and
+                    technology continue to captivate me, offering a vast realm
+                    for exploration.
                   </p>
                   <p className="py-2 font-normal text-text-primary md:text-base text-sm leading-body">
-                    During my freshman year, I decided to shift my career
-                    towards designing for people in computing spaces because of
-                    a desire to work at larger and faster scales. While
-                    computing and architecture slowly evolve, still, at the
-                    heart of these disciplines are what makes design valuable –
-                    it improves people’s lives holistically through emotion,
-                    functionality, and aesthetics. Instead of strolling spaces,
-                    however, people are now scrolling interfaces more. Learning
-                    about technology has given me a spatial 'taste' of design in
-                    the real world and allows me to bring a systems view to
-                    designing interfaces that feel more humane.
+                    During my freshman year, I redirected my career path toward
+                    designing for people in technology-driven spaces, seeking to
+                    engage with larger and faster scales. While technology and
+                    computing fields continue to evolve, their core essence
+                    remains rooted in the value of design—it enhances people's
+                    lives through emotion, functionality, and aesthetics. Unlike
+                    strolling through physical spaces, today's interaction
+                    involves scrolling through interfaces. Exploring technology
+                    has given me a tangible sense of design in the real world,
+                    allowing me to bring a systemic perspective to interface
+                    design, aiming for a more humane and user-centered approach.
                   </p>
                 </div>
               </div>
@@ -120,21 +119,21 @@ const About = () => {
           </div>
           <div className="md:mt-6 mt-4 flex md:flex-row flex-col justify-between md:items-center items-start md:gap-24 gap-4">
             <div className="flex flex-col md:gap-8 gap-4 md:w-1/2">
-              <div className="flex flex-col gap-1">
+              <div className="flex flex-col">
                 <div>
                   <h1 className="font-bold md:text-3xl text-2xl text-text-primary leading-heading tracking-tight">
                     Vellore Institute of Technology, Vellore
                   </h1>
                 </div>
                 <div>
-                  <p className="text-text-secondary font-semibold md:text-lg text-base leading-heading tracking-wide py-2">
+                  <p className="text-text-secondary font-semibold md:text-lg text-base leading-heading tracking-wide py-1">
                     2020 - 2024
                   </p>
                 </div>
               </div>
               <div>
                 <p className="font-normal text-text-primary md:text-base text-sm leading-body">
-                  Integrated Masters of Computer Science Engineering, a dual
+                  Integrated Masters of Computer Science Engineering - a dual
                   degree program by VIT, Vellore.
                 </p>
               </div>
@@ -160,13 +159,14 @@ const About = () => {
               <div className="md:w-1/2 h-fit">
                 <div className="flex flex-col md:gap-4 gap-2">
                   <h1 className="font-bold md:text-xl text-lg text-text-primary leading-heading">
-                    ❤️ Passion is everything.
+                    ❤️ Where Passion Leads, Everything Follows.
                   </h1>
                   <p className="font-normal md:text-base text-sm text-text-primary leading-body">
-                    I found that because I enjoy what I do, I have the drive and
-                    initiative to pour my heart into the things I believe in. I
-                    push for boundless creativity and to join other passionate
-                    people to make the world a happier place.
+                    I've discovered that my genuine passion for my work fuels my
+                    determination to wholeheartedly invest in what I believe in.
+                    I relentlessly pursue limitless creativity and seek out
+                    like-minded individuals, driven by passion, to collectively
+                    contribute to creating a brighter, more joyful world.
                   </p>
                 </div>
               </div>
@@ -175,13 +175,13 @@ const About = () => {
                   <h1 className="font-bold md:text-xl text-lg text-text-primary leading-heading">
                     📚 Never stop learning.
                   </h1>
-                  <p className="font-medium md:text-base text-sm text-text-primary leading-body">
-                    I am always seeking challenges to continually develop
-                    myself, such as participating in competitions, collaborating
-                    on projects, reading blogs, and involving myself in the
-                    design community where I learn from others and also give
-                    back through mentorship and sharing my experiences and
-                    skills.
+                  <p className="font-normal md:text-base text-sm text-text-primary leading-body">
+                    Consistently pursuing challenges is my way of perpetual
+                    growth – from engaging in competitions and collaborative
+                    projects to diving into blogs and actively contributing to
+                    the design community. I find value in both learning from
+                    others and giving back through mentorship, sharing
+                    experiences, and honing my skills.
                   </p>
                 </div>
               </div>
@@ -190,25 +190,26 @@ const About = () => {
               <div className="md:w-1/2 h-fit">
                 <div className="flex flex-col gap-4">
                   <h1 className="font-bold md:text-xl text-lg text-text-primary leading-heading">
-                    😃 Be human.
+                    😃 Embody Your Humanity.
                   </h1>
-                  <p className="font-medium md:text-base text-sm text-text-primary leading-body">
-                    Empathy and kindness go a long way. Share our knowledge and
-                    take time to understand different perspectives. Build
-                    towards a culture of inclusion and respect, and stay true to
-                    yourself and to others.
+                  <p className="font-normal md:text-base text-sm text-text-primary leading-body">
+                    Embracing empathy and kindness carries immense power. Share
+                    your knowledge generously, embrace diverse perspectives, and
+                    foster an inclusive, respectful culture. Stay authentic to
+                    yourself and honor the authenticity of others.
                   </p>
                 </div>
               </div>
               <div className="md:w-1/2 h-fit">
                 <div className="flex flex-col gap-4">
                   <h1 className="font-bold md:text-xl text-base text-text-primary leading-heading">
-                    🗻 Embrace the journey.
+                    🗻 Embrace the Adventure Ahead.
                   </h1>
-                  <p className="font-medium md:text-base text-sm text-text-primary leading-body">
-                    Embrace the learning curves and failures and discomfort.
-                    Open your mind and let curiosity and optimism drive you.
-                    Believe in yourself, and also have fun along the way.
+                  <p className="font-normal md:text-base text-sm text-text-primary leading-body">
+                    Welcome the learning curves, failures, and moments of
+                    discomfort as stepping stones. Keep an open mind fueled by
+                    curiosity and optimism. Trust in yourself, enjoy the
+                    journey, and infuse it with a sense of fun and exploration.
                   </p>
                 </div>
               </div>
