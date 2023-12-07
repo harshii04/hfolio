@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import Image from "next/image";
 import Img1 from "../../assets/Profile Header 1.jpg";
 import Img2 from "../../assets/CollegeImg.svg";
 import GroupImg from "../../assets/GroupImg 1.svg";
 import Img3 from "../../assets/CollegeImg06.svg";
-import Link from "next/link";
 
 const About = () => {
   return (
