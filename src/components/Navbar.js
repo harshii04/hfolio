@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="container flex justify-between mt-8">
         <div>
           <Link href="/">
-            <h1 className="base font-semibold text-text-primary leading-heading underline underline-offset-4 ">
+            <h1 className="md:text-base text-sm font-bold text-text-primary leading-heading underline underline-offset-4 ">
               {text}
             </h1>
           </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <ul className="flex md:flex-row flex-col md:gap-4 gap-2 items-start">
             <li>
               <Link
-                href="#work"
+                href="/work"
                 className="font-semibold text-sm  text-text-primary hover:underline hover:underline-offset-4 hover:italic transition-all duration-300 ease-in-out leading-heading"
               >
                 Work

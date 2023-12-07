@@ -41,7 +41,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
-// legrange interpolation
-// Homorphic
-// Full and partially

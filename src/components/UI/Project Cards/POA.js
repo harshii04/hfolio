@@ -31,6 +31,7 @@ const ProjectCard = () => {
                   alt="Project Image"
                   draggable={false}
                   className="md:rounded-2xl rounded-lg shadow-imgShadow"
+                  priority
                 />
               </div>
               <div>

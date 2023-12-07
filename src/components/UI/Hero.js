@@ -19,9 +19,9 @@ const Hero = () => {
 
   return (
     <>
-      <div className="container flex flex-col md:gap-2 gap-3 md:mt-48 mt-16 md:pb-24 justify-center">
+      <div className="container flex flex-col md:gap-2 gap-3 md:mt-48 mt-24 md:pb-24 justify-center">
         <div>
-          <p className="font-bold md:text-4xl text-3xl md:leading-body leading-body text-text-primary ">
+          <p className="font-bold md:text-4xl text-2xl md:leading-body leading-body text-text-primary ">
             Hi, i'm Harshvardhan{" "}
             <span role="img" aria-label="Changing Emoji">
               {emojis[currentEmojiIndex]}
@@ -29,34 +29,20 @@ const Hero = () => {
           </p>
         </div>
         <div>
-          <p className="font-bold md:text-4xl text-3xl md:leading-body leading-body text-text-primary ">
+          <p className="font-bold md:text-4xl text-2xl md:leading-body leading-body text-text-primary ">
             Exploring designing intelligent interfaces.
           </p>
         </div>
         <div>
-          <p className="font-bold md:text-4xl text-3xl md:leading-body leading-body text-text-primary ">
+          <p className="font-bold md:text-4xl text-2xl md:leading-body leading-body text-text-primary ">
             Previously worked at Avalon Scenes and Dive.
           </p>
         </div>
         <div>
-          <p className="font-bold md:text-4xl text-3xl md:leading-body leading-body text-text-primary  ">
+          <p className="font-bold md:text-4xl text-2xl md:leading-body leading-body text-text-primary  ">
             Currently looking for new opportunities.
           </p>
         </div>
-
-        {/* <div>
-          <p className="font-medium md:text-2xl text-xl leading-body text-text-secondary tracking-[0.48px]">
-            Currently looking for new opportunities. Previously worked at Avalon
-            Scenes and Dive.
-          </p>
-        </div> */}
-        {/* <div className="flex gap-2 animate-bounce pt-6 items-center">
-          <CaretDown
-            size={40}
-            className="fill-text-secondary"
-            weight="regular"
-          />
-        </div> */}
       </div>
     </>
   );
