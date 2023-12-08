@@ -47,7 +47,7 @@ const About = () => {
                 <Image
                   src={Img1}
                   alt="This is my image"
-                  className="rounded-lg w-auto h-auto -z-10 hover:shadow-imgShadow transition-all duration-300 ease-in-out -rotate-3"
+                  className="rounded-lg w-auto h-auto -z-10"
                   height={400}
                   width={400}
                   priority
@@ -55,7 +55,7 @@ const About = () => {
                 <Image
                   src={Img2}
                   alt="This is my image"
-                  className="rounded-lg md:absolute md:block hidden top-16 right-4 -z-10  w-72 h-auto rotate-3 hover:shadow-imgShadow transition-all duration-300 ease-in-out"
+                  className="rounded-lg md:absolute md:block hidden top-16 right-4 -z-10  w-72 h-auto"
                 />
               </div>
             </div>
@@ -66,9 +66,9 @@ const About = () => {
                 <Image
                   src={GroupImg}
                   alt="This is my image"
-                  className="rounded-lg w-auto h-auto hover:shadow-imgShadow transition-all duration-300 ease-in-out"
+                  className="rounded-lg w-auto h-auto"
                 />
-                <p className="font-extralight text-xs text-text-secondary">
+                <p className="font-normal text-xs text-text-secondary">
                   My first hackathon team.
                 </p>
               </div>
@@ -142,9 +142,9 @@ const About = () => {
               <Image
                 src={Img3}
                 alt="this is my college"
-                className="rounded-lg w-auto h-auto hover:shadow-imgShadow transition-all duration-300 ease-in-out"
+                className="rounded-lg w-auto h-auto"
               />
-              <p className="text-text-secondary font-light text-xs pt-2">
+              <p className="text-text-secondary font-normal text-xs pt-2">
                 Get to witness magical sunsets from campus.
               </p>
             </div>
