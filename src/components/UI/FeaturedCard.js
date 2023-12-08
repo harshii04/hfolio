@@ -31,7 +31,7 @@ const FeaturedCard = ({ link, img, tag, heading, content }) => {
                 />
               </div>
 
-              <p className="text-text-secondary md:text-base text-sm leading-body font-medium">
+              <p className="text-text-secondary md:text-base text-sm leading-body font-normal">
                 {content}
               </p>
             </div>
