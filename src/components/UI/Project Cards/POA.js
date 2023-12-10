@@ -18,7 +18,7 @@ const ProjectCard = () => {
           target="_blank"
           alt="Project 1"
         >
-          <div className=" bg-[#f4f6f8] hover:bg-green-card transition-all duration-300 ease-in-out md:py-12 md:px-8 py-8 px-4 flex flex-col gap-12 md:rounded-2xl rounded-lg">
+          <div className=" bg-[#f4f6f8] hover:bg-green-card transition-all duration-500 ease-in-out md:py-12 md:px-8 py-8 px-4 flex flex-col gap-12 md:rounded-2xl rounded-lg">
             <div>
               <p className="font-bold md:text-4xl text-2xl leading-heading text-text-primary">
                 Online Plant Ordering App

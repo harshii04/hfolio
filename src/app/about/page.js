@@ -286,7 +286,10 @@ const About = () => {
               </p>
             </div>
             <div>
-              <Link href="" alt="Resume link">
+              <Link
+                href="https://drive.google.com/file/d/1KmszXaNN4oyJrfciOEQQOxiGjqOchHEM/view?usp=sharing"
+                alt="Resume link"
+              >
                 <p className="after:content-['_↓'] font-medium text-sm text-text-primary underline underline-offset-2 hover:text-opacity-60 transition-all duration-300 ease-in-out cursor-pointer">
                   View full resume here
                 </p>

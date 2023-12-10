@@ -11,7 +11,7 @@ const AboutPrj = ({ role, tools, timeline, description, content, link }) => {
             <p className="font-semibold text-xs leading-heading text-text-secondary tracking-wider">
               MY ROLE
             </p>
-            <p className="text-text-primary leading-body md:text-base text-sm font-medium w-36">
+            <p className="text-text-primary leading-body md:text-base text-sm font-normal w-36">
               {role}
             </p>
           </div>
