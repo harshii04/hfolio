@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import pImg1 from "../../assets/Personal Potrait 3.jpg";
+import pImg1 from "../../assets/Personal Potrait 3.JPG";
 import pImg2 from "../../assets/Landscape college.jpeg";
 import newImg from "../../assets/Personal Landscape.jpg";
 
@@ -46,7 +46,7 @@ const About = () => {
                 <Image
                   src={pImg1}
                   alt="This is my image"
-                  className="rounded-lg w-auto h-auto -z-10 shadow-imgShadow"
+                  className="rounded-lg w-auto h-auto shadow-imgShadow"
                   priority
                 />
               </div>
