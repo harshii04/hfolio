@@ -3,10 +3,9 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import Img1 from "../../assets/Profile Header 1.jpg";
-import Img2 from "../../assets/CollegeImg.svg";
-import GroupImg from "../../assets/GroupImg 1.svg";
-import Img3 from "../../assets/CollegeImg06.svg";
+import pImg1 from "../../assets/Personal Potrait 3.jpg";
+import pImg2 from "../../assets/Landscape college.jpeg";
+import newImg from "../../assets/Personal Landscape.jpg";
 
 const About = () => {
   return (
@@ -39,37 +38,30 @@ const About = () => {
                 <div className="md:py-6 py-4">
                   <h1 className="text-text-secondary font-medium text-base leading-heading">
                     One of the top things on my bucket list is a solo trip to
-                    Japan!
+                    Japan! 🇯🇵
                   </h1>
                 </div>
               </div>
-              <div className="py-4">
+              <div className=" md:w-1/3 py-4">
                 <Image
-                  src={Img1}
+                  src={pImg1}
                   alt="This is my image"
-                  className="rounded-lg w-auto h-auto -z-10"
-                  height={400}
-                  width={400}
+                  className="rounded-lg w-auto h-auto -z-10 shadow-imgShadow"
                   priority
-                />
-                <Image
-                  src={Img2}
-                  alt="This is my image"
-                  className="rounded-lg md:absolute md:block hidden top-16 right-4 -z-10  w-72 h-auto"
                 />
               </div>
             </div>
           </div>
           <div className="md:mt-24 mt-6">
             <div className="flex md:flex-row justify-between items-start md:gap-24 gap-4 flex-col-reverse">
-              <div className="md:w-1/2 flex flex-col gap-1 items-center">
+              <div className=" md:w-1/2 flex flex-col gap-1 items-center">
                 <Image
-                  src={GroupImg}
+                  src={newImg}
                   alt="This is my image"
-                  className="rounded-lg w-auto h-auto"
+                  className="rounded-lg w-auto h-auto shadow-imgShadow"
                 />
                 <p className="font-normal text-xs text-text-secondary">
-                  My first hackathon team.
+                  My first hackathon team
                 </p>
               </div>
               <div className="flex flex-col md:w-1/2 h-fit justify-between">
@@ -80,33 +72,30 @@ const About = () => {
                 </div>
 
                 <div>
-                  <p className="py-2 font-normal text-text-primary  md:text-base text-sm leading-body">
+                  <p className="py-2 font-normal text-text-primary  md:text-sm text-sm leading-body">
                     I’m an undergraduate student at the Vellore Institute of
                     Technology, Vellore studying Computer Science Engineering
                     and graduating in May 2025.
                   </p>
-                  <p className="py-2 font-normal text-text-primary md:text-base text-sm leading-body">
+                  <p className="py-2 font-normal text-text-primary md:text-sm text-sm leading-body">
                     For quite some time, my focus has been crafting spaces that
                     invite people to wander and relish, aiming always to curate
-                    immersive human experiences within the built environment.
-                    This journey has fueled my curiosity about human
-                    interaction, propelling me to create more intuitive designs.
-                    The intricacies of human relationships with nature and
-                    technology continue to captivate me, offering a vast realm
-                    for exploration.
+                    immersive experiences within the built environment. This
+                    journey has piqued my curiosity about different aesthetics,
+                    driving me to create more innovative designs. The
+                    intricacies and nuances of various themes and ideologies
+                    continue to intrigue me, keeping me wanting more.
                   </p>
-                  <p className="py-2 font-normal text-text-primary md:text-base text-sm leading-body">
+                  <p className="py-2 font-normal text-text-primary md:text-sm text-sm leading-body">
                     During my freshman year, I redirected my career path toward
-                    designing for people in technology-driven spaces, seeking to
-                    engage with larger and faster scales. While technology and
-                    computing fields continue to evolve, their core essence
-                    remains rooted in the value of design—it enhances people's
-                    lives through emotion, functionality, and aesthetics. Unlike
+                    designing for people in technology-driven spaces, because I
+                    found design holding the very essence of what engineering
+                    meant to me and why I got into it in the first place.
+                    Design, I’ve found, enhances people's lives and experiences
+                    through emotion, functionality, and aesthetics. Unlike
                     strolling through physical spaces, today's interaction
-                    involves scrolling through interfaces. Exploring technology
-                    has given me a tangible sense of design in the real world,
-                    allowing me to bring a systemic perspective to interface
-                    design, aiming for a more humane and user-centered approach.
+                    involves scrolling through interfaces. The very human
+                    element of design is what has kept me coming back to it.
                   </p>
                 </div>
               </div>
@@ -127,12 +116,12 @@ const About = () => {
                 </div>
                 <div>
                   <p className="text-text-secondary font-semibold md:text-lg text-base leading-heading tracking-wide py-1">
-                    2020 - 2024
+                    2020 - 2025
                   </p>
                 </div>
               </div>
               <div>
-                <p className="font-normal text-text-primary md:text-base text-sm leading-body">
+                <p className="font-normal text-text-primary md:text-sm text-sm leading-body">
                   Integrated Masters of Computer Science Engineering - a dual
                   degree program by VIT, Vellore.
                 </p>
@@ -140,12 +129,12 @@ const About = () => {
             </div>
             <div className="flex flex-col gap-1 md:w-1/2 items-center justify-between">
               <Image
-                src={Img3}
+                src={pImg2}
                 alt="this is my college"
-                className="rounded-lg w-auto h-auto"
+                className="rounded-lg w-auto h-auto shadow-imgShadow"
               />
               <p className="text-text-secondary font-normal text-xs pt-2">
-                Get to witness magical sunsets from campus.
+                Magical sunsets from campus
               </p>
             </div>
           </div>
@@ -161,12 +150,12 @@ const About = () => {
                   <h1 className="font-bold md:text-xl text-lg text-text-primary leading-heading">
                     ❤️ Where Passion Leads, Everything Follows.
                   </h1>
-                  <p className="font-normal md:text-base text-sm text-text-primary leading-body">
-                    I've discovered that my genuine passion for my work fuels my
-                    determination to wholeheartedly invest in what I believe in.
-                    I relentlessly pursue limitless creativity and seek out
-                    like-minded individuals, driven by passion, to collectively
-                    contribute to creating a brighter, more joyful world.
+                  <p className="font-normal md:text-sm text-sm text-text-primary leading-body">
+                    I've found myself working relentlessly on design projects at
+                    3 AM, resisting sleep effortlessly because of my love for
+                    the field. It has become a lifestyle, a core quality of
+                    myself. I see design even in real life at times, always
+                    gathering knowledge wherever and however possible.
                   </p>
                 </div>
               </div>
@@ -175,13 +164,14 @@ const About = () => {
                   <h1 className="font-bold md:text-xl text-lg text-text-primary leading-heading">
                     📚 Never stop learning.
                   </h1>
-                  <p className="font-normal md:text-base text-sm text-text-primary leading-body">
-                    Consistently pursuing challenges is my way of perpetual
-                    growth – from engaging in competitions and collaborative
-                    projects to diving into blogs and actively contributing to
-                    the design community. I find value in both learning from
-                    others and giving back through mentorship, sharing
-                    experiences, and honing my skills.
+                  <p className="font-normal md:text-sm text-sm text-text-primary leading-body">
+                    The field never bores or tires me, on the contrary, I find
+                    places to learn from in my free time. Whether it's my social
+                    media apps or some YouTube vlogs, I happily engage with it
+                    endlessly. It actually brings me comfort, I engage in
+                    competitions and collaborative projects dive into blogs and
+                    actively contribute to the field because it values me just
+                    as much.
                   </p>
                 </div>
               </div>
@@ -192,11 +182,13 @@ const About = () => {
                   <h1 className="font-bold md:text-xl text-lg text-text-primary leading-heading">
                     😃 Embody Your Humanity.
                   </h1>
-                  <p className="font-normal md:text-base text-sm text-text-primary leading-body">
-                    Embracing empathy and kindness carries immense power. Share
-                    your knowledge generously, embrace diverse perspectives, and
-                    foster an inclusive, respectful culture. Stay authentic to
-                    yourself and honor the authenticity of others.
+                  <p className="font-normal md:text-sm text-sm text-text-primary leading-body">
+                    I’ve connected with so many people while working on
+                    different projects that it has given me a multicoloured
+                    perspective of what design could look like. I’ve learnt a
+                    lot and realised how human the experience has made me,
+                    making mistakes but then rectifying them, understanding what
+                    somebody might like and how to put it across.
                   </p>
                 </div>
               </div>
@@ -205,11 +197,12 @@ const About = () => {
                   <h1 className="font-bold md:text-xl text-base text-text-primary leading-heading">
                     🗻 Embrace the Adventure Ahead.
                   </h1>
-                  <p className="font-normal md:text-base text-sm text-text-primary leading-body">
-                    Welcome the learning curves, failures, and moments of
-                    discomfort as stepping stones. Keep an open mind fueled by
-                    curiosity and optimism. Trust in yourself, enjoy the
-                    journey, and infuse it with a sense of fun and exploration.
+                  <p className="font-normal md:text-sm text-sm text-text-primary leading-body">
+                    For now, I’m just staying hungry for more opportunities and
+                    better learning. everything that comes my way, I’m keeping
+                    an open mind fueled by curiosity and optimism. Noah Khan
+                    said in his song, that I live by “be surprised, keep
+                    hungry!” and that is exactly what I intend to do.
                   </p>
                 </div>
               </div>
