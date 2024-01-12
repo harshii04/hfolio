@@ -53,7 +53,7 @@ const About = () => {
             </div>
           </div>
           <div className="md:mt-24 mt-6">
-            <div className="flex md:flex-row justify-between items-start md:gap-24 gap-4 flex-col-reverse">
+            <div className="flex md:flex-row justify-between items-center md:gap-24 gap-4 flex-col-reverse">
               <div className=" md:w-1/2 flex flex-col gap-1 items-center">
                 <Image
                   src={newImg}
