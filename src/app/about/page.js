@@ -72,12 +72,12 @@ const About = () => {
                 </div>
 
                 <div>
-                  <p className="py-2 font-normal text-text-primary  md:text-sm text-sm leading-body">
+                  <p className="py-2 font-normal text-text-primary  md:text-base text-sm leading-body">
                     I’m an undergraduate student at the Vellore Institute of
                     Technology, Vellore studying Computer Science Engineering
                     and graduating in May 2025.
                   </p>
-                  <p className="py-2 font-normal text-text-primary md:text-sm text-sm leading-body">
+                  <p className="py-2 font-normal text-text-primary md:text-base text-sm leading-body">
                     For quite some time, my focus has been crafting spaces that
                     invite people to wander and relish, aiming always to curate
                     immersive experiences within the built environment. This
@@ -86,7 +86,7 @@ const About = () => {
                     intricacies and nuances of various themes and ideologies
                     continue to intrigue me, keeping me wanting more.
                   </p>
-                  <p className="py-2 font-normal text-text-primary md:text-sm text-sm leading-body">
+                  <p className="py-2 font-normal text-text-primary md:text-base text-sm leading-body">
                     During my freshman year, I redirected my career path toward
                     designing for people in technology-driven spaces, because I
                     found design holding the very essence of what engineering
@@ -121,7 +121,7 @@ const About = () => {
                 </div>
               </div>
               <div>
-                <p className="font-normal text-text-primary md:text-sm text-sm leading-body">
+                <p className="font-normal text-text-primary md:text-base text-sm leading-body">
                   Integrated Masters of Computer Science Engineering - a dual
                   degree program by VIT, Vellore.
                 </p>
@@ -150,7 +150,7 @@ const About = () => {
                   <h1 className="font-bold md:text-xl text-lg text-text-primary leading-heading">
                     ❤️ Where Passion Leads, Everything Follows.
                   </h1>
-                  <p className="font-normal md:text-sm text-sm text-text-primary leading-body">
+                  <p className="font-normal md:text-base text-sm text-text-primary leading-body">
                     I've found myself working relentlessly on design projects at
                     3 AM, resisting sleep effortlessly because of my love for
                     the field. It has become a lifestyle, a core quality of
@@ -164,7 +164,7 @@ const About = () => {
                   <h1 className="font-bold md:text-xl text-lg text-text-primary leading-heading">
                     📚 Never stop learning.
                   </h1>
-                  <p className="font-normal md:text-sm text-sm text-text-primary leading-body">
+                  <p className="font-normal md:text-base text-sm text-text-primary leading-body">
                     The field never bores or tires me, on the contrary, I find
                     places to learn from in my free time. Whether it's my social
                     media apps or some YouTube vlogs, I happily engage with it
@@ -182,7 +182,7 @@ const About = () => {
                   <h1 className="font-bold md:text-xl text-lg text-text-primary leading-heading">
                     😃 Embody Your Humanity.
                   </h1>
-                  <p className="font-normal md:text-sm text-sm text-text-primary leading-body">
+                  <p className="font-normal md:text-base text-sm text-text-primary leading-body">
                     I’ve connected with so many people while working on
                     different projects that it has given me a multicoloured
                     perspective of what design could look like. I’ve learnt a
@@ -197,7 +197,7 @@ const About = () => {
                   <h1 className="font-bold md:text-xl text-base text-text-primary leading-heading">
                     🗻 Embrace the Adventure Ahead.
                   </h1>
-                  <p className="font-normal md:text-sm text-sm text-text-primary leading-body">
+                  <p className="font-normal md:text-base text-sm text-text-primary leading-body">
                     For now, I’m just staying hungry for more opportunities and
                     better learning. everything that comes my way, I’m keeping
                     an open mind fueled by curiosity and optimism. Noah Khan
