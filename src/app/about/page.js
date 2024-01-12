@@ -61,7 +61,7 @@ const About = () => {
                   className="rounded-lg w-auto h-auto shadow-imgShadow"
                 />
                 <p className="font-normal text-xs text-text-secondary">
-                  My first hackathon team
+                  Accomplishing 12,750 Ft
                 </p>
               </div>
               <div className="flex flex-col md:w-1/2 h-fit justify-between">
