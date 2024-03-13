@@ -1,11 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
-import Navbar from "@/components/Navbar";
 import Featured from "@/components/Featured";
 import Project from "@/components/Project";
 import Hero from "@/components/UI/Hero";
 import VisualBg from "@/components/VisualBg";
-import FooterNew from "@/components/FooterNew";
 
 export default function Home() {
   return (
@@ -20,11 +18,6 @@ export default function Home() {
         <Project />
         <VisualBg />
         <Featured />
-        {/* <Experience /> */}
-        {/* <About /> */}
-        {/* <Contact /> */}
-        {/* <Footer /> */}
-        {/* <FooterNew /> */}
       </motion.div>
     </>
   );
