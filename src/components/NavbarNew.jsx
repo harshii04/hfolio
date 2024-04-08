@@ -57,7 +57,7 @@ const NavbarNew = () => {
           >
             Blog
           </Link>
-          <button
+          <Link
             href={
               "https://drive.google.com/file/d/1KmszXaNN4oyJrfciOEQQOxiGjqOchHEM/view?usp=sharing"
             }
@@ -70,7 +70,7 @@ const NavbarNew = () => {
               fill="#4f4f4f"
               className="group-hover:translate-x-1 transition-all ease-in-out duration-300"
             />
-          </button>
+          </Link>
         </div>
         <div className="md:hidden flex items-center justify-center transition-all duration-300 ease-in-out">
           <button
