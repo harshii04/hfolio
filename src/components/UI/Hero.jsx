@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
-import { CaretDown } from "@phosphor-icons/react";
+
 import { useState, useEffect } from "react";
 
 const Hero = () => {

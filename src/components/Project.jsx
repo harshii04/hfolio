@@ -1,6 +1,6 @@
-import GFO from "../components/UI/Project Cards/GFO";
-import POA from "../components/UI/Project Cards/POA";
-import Dive from "../components/UI/Project Cards/Dive";
+import GFO from "./UI/Project Cards/GFO";
+import POA from "./UI/Project Cards/POA";
+import Dive from "./UI/Project Cards/Dive";
 const Project = () => {
   return (
     <>

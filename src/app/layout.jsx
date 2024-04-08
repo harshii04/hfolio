@@ -5,6 +5,7 @@ import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/react";
 import Navbar from "@/components/Navbar";
 import FooterNew from "@/components/FooterNew";
+import NavbarNew from "@/components/NavbarNew";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,7 +35,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body suppressHydrationWarning={true} className={inter.className}>
-        <Navbar />
+        {/* <Navbar /> */}
+        <NavbarNew />
         {children}
         <SpeedInsights />
         <Analytics />
