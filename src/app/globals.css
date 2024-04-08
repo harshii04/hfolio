@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+  html{
+    @apply bg-white;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    transform: translateZ(0);
+  }
+}
 
 
 
@@ -12,21 +25,8 @@ html{scroll-behavior: smooth;}
 }
 
 
-body {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  transform: translateZ(0);
-}
 
-.bg-text-primary {
-  /* Replace with your preferred underline color */
-  background-color: #333; /* Example color */
-}
 
-.custom-radial-gradient {
-  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
-}
 
 
 .container {
