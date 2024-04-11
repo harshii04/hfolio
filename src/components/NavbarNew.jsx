@@ -58,7 +58,7 @@ const NavbarNew = () => {
             Blog
           </Link>
           <Link
-            href="/resume.pdf"
+            href="/resume"
             className="group flex gap-1 items-center justify-center p-4 text-sm font-semibold text-text-primary hover:opacity-70 transition-all duration-300 ease-in-out leading-heading"
             target="_blank"
           >
