@@ -7,7 +7,7 @@ const NavbarNew = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const [text, setText] = useState("");
-  const fullText = "hva.";
+  const fullText = "HVA.";
 
   useEffect(() => {
     let currentIndex = 0;
@@ -58,7 +58,7 @@ const NavbarNew = () => {
             Blog
           </Link>
           <Link
-            href="/resume"
+            href="/resume.pdf"
             className="group flex gap-1 items-center justify-center p-4 text-sm font-semibold text-text-primary hover:opacity-70 transition-all duration-300 ease-in-out leading-heading"
             target="_blank"
           >
@@ -81,7 +81,7 @@ const NavbarNew = () => {
       </div>
       {isOpen && (
         <div className="md:hidden bg-white transition-all duration-500 ease-in-out">
-          <div className="mt-4 rounded-lg bg-white border border-border-stroke flex flex-col gap-1 pt-4 items-center justify-center">
+          <div className="mt-4 rounded-lg bg-white flex flex-col gap-1 pt-4 items-center justify-center">
             <Link
               href="/work"
               className="p-2 text-sm font-semibold text-text-primary hover:opacity-80 transition-all duration-300 ease-in-out leading-heading"
@@ -104,7 +104,7 @@ const NavbarNew = () => {
               Blogs
             </Link>
             <Link
-              href={"/resume.pdf"}
+              href="/resume.pdf"
               className="group flex gap-1 items-center justify-center p-4 text-sm font-semibold text-text-primary hover:opacity-80 transition-all duration-300 ease-in-out leading-heading"
               onClick={handleClick}
             >
