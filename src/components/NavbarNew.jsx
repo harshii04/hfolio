@@ -51,12 +51,12 @@ const NavbarNew = () => {
           >
             About
           </Link>
-          <Link
+          {/* <Link
             href="/blogs"
             className="p-4 text-sm font-semibold text-text-primary hover:opacity-70 transition-all duration-300 ease-in-out leading-heading"
           >
             Blog
-          </Link>
+          </Link> */}
           <Link
             href="/resume.pdf"
             className="group flex gap-1 items-center justify-center p-4 text-sm font-semibold text-text-primary hover:opacity-70 transition-all duration-300 ease-in-out leading-heading"
