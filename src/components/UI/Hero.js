@@ -23,9 +23,9 @@ const Hero = () => {
         <div>
           <p className="font-bold md:text-4xl text-2xl md:leading-body leading-body text-text-primary ">
             Hi, i'm Harshvardhan{" "}
-            <span role="img" aria-label="Changing Emoji">
+            {/* <span role="img" aria-label="Changing Emoji">
               {emojis[currentEmojiIndex]}
-            </span>
+            </span> */}
           </p>
         </div>
         <div>

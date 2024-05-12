@@ -11,9 +11,9 @@ const Project = () => {
           </p>
         </div>
         <div className="flex flex-col md:gap-8 gap-12">
-          <POA />
           <GFO />
           <Dive />
+          <POA />
         </div>
       </div>
     </>
