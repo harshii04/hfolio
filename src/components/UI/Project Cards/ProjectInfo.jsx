@@ -13,7 +13,7 @@ const ProjectInfo = ({ heading, timeline, description }) => {
           </p>
         </div>
 
-        <div className="md:w-1/2 ">
+        <div className="md:w-1/2 md:pt-0 pt-4 ">
           <p className="text-text-secondary text-base leading-body">
             {description}
           </p>

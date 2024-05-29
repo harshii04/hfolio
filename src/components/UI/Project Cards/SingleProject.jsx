@@ -12,7 +12,7 @@ const SingleProject = ({
   return (
     <>
       <div className="flex flex-col gap-8 py-10">
-        <div className="flex md:flex-row flex-col items-start justify-between">
+        <div className="flex md:flex-row flex-col items-start justify-between gap-2">
           <div className="flex flex-col gap-4">
             <div className="flex gap-2 items-center">
               <Image
@@ -33,8 +33,8 @@ const SingleProject = ({
               </p>
             </div>
           </div>
-          <div className="md:w-1/2 pt-4">
-            <p className="text-text-secondary text-base leading-body">
+          <div className="md:w-1/2 w-full md:pt-0 pt-12">
+            <p className="text-text-secondary text-base leading-body md:pt-0 pt-4">
               {description}
             </p>
           </div>

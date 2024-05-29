@@ -17,7 +17,7 @@ const ProjectCard = () => {
           heading={"Group Food Ordering"}
           timeline={"Takehome assignment, June 2022"}
           description={
-            "Post COVID get togethers at home became more common, these required ordering food for all which was seen to be a long processs because of indecisiveness. So I introduced a voting system to choose the restaurant which reduced the delay."
+            "Post-COVID get-togethers at home became more common, these required ordering food for all which was seen to be a long process because of indecisiveness. So I introduced a voting system to choose the restaurant which reduced the delay."
           }
         />
         <Link

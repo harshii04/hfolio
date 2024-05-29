@@ -17,7 +17,7 @@ const Hero = () => {
           </div>
           <div>
             <p className="md:text-base text-sm leading-body text-text-primary ">
-              I was working as product design intern at{" "}
+              I was working as a product design intern at{" "}
               <Link
                 href={"https://graphy.com/community-platform/"}
                 className="underline underline-offset-2 text-text-primary "
@@ -33,9 +33,8 @@ const Hero = () => {
               >
                 Dive
               </Link>{" "}
-              , I have worked on productising client-requested features,
-              internal tools, educational platform to teach coding, and game
-              design.
+              , I worked on productising client-requested features, internal
+              tools, educational platform to teach coding and game design.
             </p>
           </div>
         </div>

@@ -35,9 +35,9 @@ const ProfessionalWork = () => {
             heading="Designed an AI tutoring platfrom for CAT aspirants"
             timeline="Freelance, January '24 - March '24"
             description={
-              "We surveyed some people preparing for CAT exam and realised that they had trouble understanding different sections of exam but could not reacg out to a teacher if they’re engaging in self study. we saw this as an opportunity to create an ai platform to help solve doubts without having to enroll with coaching centres to allow easy engagement and ready access for the aspirants."
+              "We surveyed some people preparing for CAT exam and realised that they had trouble understanding different sections of exam but could not reach out to a teacher if they were engaging in self-study. we saw this as an opportunity to create an AI platform to help solve doubts without having to enroll with coaching centres to allow easy engagement and ready access for the aspirants."
             }
-            link="www.google.com"
+            link="/nda"
             prjImg1={Bamos1}
             prjImg2={Bamos4}
             prjImg3={Bamos3}
@@ -51,7 +51,7 @@ const ProfessionalWork = () => {
             description={
               "At Avalon, I contributed to the development and enhancement of multiple features, including the weekly leaderboard, tag and hashtag creation, the revamp of the new post creation flow, and user profile redesigns. My work aimed to improve user engagement, streamline workflows, and enhance the overall user experience. "
             }
-            link="www.google.com"
+            link="/nda"
             prjImg1={Avalon1}
             prjImg2={Avalon2}
             prjImg3={Avalon3}

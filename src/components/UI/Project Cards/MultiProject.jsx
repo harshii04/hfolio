@@ -36,8 +36,8 @@ const MultiProject = ({
               />
             </div>
           </Link>
-          <div className="flex md:flex-row flex-col gap-4 items-start justify-between">
-            <div className="md:w-1/2 w-full ">
+          <div className="flex md:flex-row flex-col gap-4 items-start justify-between md:h-[32rem]">
+            <div className="md:w-1/2 w-full h-full">
               <Link href={link} alt="Project Image">
                 <div className="group bg-[#F9FAFB] h-full w-full md:p-12 p-4 flex items-center justify-center rounded-2xl border border-[#E1E7EF] hover:cursor-pointer">
                   <Image
@@ -49,7 +49,7 @@ const MultiProject = ({
                 </div>
               </Link>
             </div>
-            <div className=" md:w-1/2 w-full">
+            <div className=" md:w-1/2 w-full h-full">
               <Link href={link} alt="Project Image">
                 <div className="group bg-[#F9FAFB] h-full w-full md:p-12 p-4 flex items-center justify-center rounded-2xl border border-[#E1E7EF] hover:cursor-pointer">
                   <Image

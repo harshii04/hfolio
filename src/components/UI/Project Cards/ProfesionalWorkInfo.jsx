@@ -9,7 +9,7 @@ const ProfessionalWorkInfo = ({
 }) => {
   return (
     <>
-      <div className="flex md:flex-row flex-col items-start justify-between md:gap-10 gap-5">
+      <div className="flex md:flex-row flex-col items-start justify-between md:gap-10">
         <div className="flex flex-col gap-4">
           <div className="flex gap-2 items-center">
             <Image
@@ -30,7 +30,7 @@ const ProfessionalWorkInfo = ({
             </p>
           </div>
         </div>
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 md:py-0 py-4">
           <p className="text-text-secondary text-base leading-body">
             {description}
           </p>
