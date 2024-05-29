@@ -4,6 +4,7 @@ import Featured from "@/components/Featured";
 import Project from "@/components/Project";
 import Hero from "@/components/UI/Hero";
 import VisualBg from "@/components/VisualBg";
+import ProfessionalWork from "@/components/ProfessionalWork";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         {/* <Navbar /> */}
         <Hero />
         <Project />
+        <ProfessionalWork />
         <VisualBg />
         <Featured />
       </motion.div>

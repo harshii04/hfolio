@@ -19,7 +19,7 @@ const About = () => {
           <div className="flex flex-col gap-4">
             <div>
               {" "}
-              <h1 className="text-text-secondary font-bold text-sm md:py-4 py-2 tracking-wider leading-heading">
+              <h1 className="text-text-secondary font-heading text-sm md:py-4 py-2 tracking-wider leading-heading">
                 ABOUT ME...
               </h1>
             </div>
@@ -31,12 +31,12 @@ const About = () => {
                   </h1>
                 </div>
                 <div>
-                  <h1 className="text-text-primary font-bold md:text-8xl text-4xl leading-heading">
+                  <h1 className="text-text-primary font-heading md:text-8xl text-4xl leading-heading">
                     Harshvardhan Agarwal
                   </h1>
                 </div>
                 <div className="md:py-6 py-4">
-                  <h1 className="text-text-secondary font-medium text-base leading-heading">
+                  <h1 className="text-text-secondary font-medium text-sm md:text-base leading-heading">
                     One of the top things on my bucket list is a solo trip to
                     Japan! 🇯🇵
                   </h1>
@@ -66,7 +66,7 @@ const About = () => {
               </div>
               <div className="flex flex-col md:w-1/2 h-fit justify-between">
                 <div className="">
-                  <h1 className="text-text-secondary font-bold md:py-4 py-2  text-sm tracking-wider leading-heading">
+                  <h1 className="text-text-secondary font-heading md:py-4 py-2  text-sm tracking-wider leading-heading">
                     INFO
                   </h1>
                 </div>
@@ -102,12 +102,12 @@ const About = () => {
             </div>
           </div>
           <div className="md:mt-24 mt-16 border-t border-border-stroke">
-            <h1 className="text-text-secondary font-bold text-sm md:py-4 py-2 tracking-wider leading-heading">
+            <h1 className="text-text-secondary font-heading text-sm md:py-4 py-2 tracking-wider leading-heading">
               EDUCATION
             </h1>
           </div>
           <div className="md:mt-6 mt-4 flex md:flex-row flex-col justify-between md:items-center items-start md:gap-24 gap-4">
-            <div className="flex flex-col md:gap-8 gap-4 md:w-1/2">
+            <div className="flex flex-col md:gap-2 gap-4 md:w-1/2">
               <div className="flex flex-col">
                 <div>
                   <h1 className="font-bold md:text-3xl text-2xl text-text-primary leading-heading tracking-tight">
@@ -139,7 +139,7 @@ const About = () => {
             </div>
           </div>
           <div className="md:mt-24 mt-16 border-t border-border-stroke">
-            <h1 className="text-text-secondary font-bold text-sm md:py-4 py-2">
+            <h1 className="text-text-secondary font-heading text-sm md:py-4 py-2">
               MY VALUES
             </h1>
           </div>
@@ -147,7 +147,7 @@ const About = () => {
             <div className="flex md:flex-row flex-col gap-8 justify-evenly">
               <div className="md:w-1/2 h-fit">
                 <div className="flex flex-col md:gap-4 gap-2">
-                  <h1 className="font-bold md:text-xl text-lg text-text-primary leading-heading">
+                  <h1 className="font-heading md:text-xl text-lg text-text-primary leading-heading">
                     ❤️ Where Passion Leads, Everything Follows.
                   </h1>
                   <p className="font-normal md:text-base text-sm text-text-primary leading-body">
@@ -161,7 +161,7 @@ const About = () => {
               </div>
               <div className="md:w-1/2 h-fit">
                 <div className="flex flex-col md:gap-4 gap-2">
-                  <h1 className="font-bold md:text-xl text-lg text-text-primary leading-heading">
+                  <h1 className="font-heading md:text-xl text-lg text-text-primary leading-heading">
                     📚 Never stop learning.
                   </h1>
                   <p className="font-normal md:text-base text-sm text-text-primary leading-body">
@@ -179,7 +179,7 @@ const About = () => {
             <div className="flex md:flex-row flex-col gap-8 ">
               <div className="md:w-1/2 h-fit">
                 <div className="flex flex-col gap-4">
-                  <h1 className="font-bold md:text-xl text-lg text-text-primary leading-heading">
+                  <h1 className="font-heading md:text-xl text-lg text-text-primary leading-heading">
                     😃 Embody Your Humanity.
                   </h1>
                   <p className="font-normal md:text-base text-sm text-text-primary leading-body">
@@ -194,7 +194,7 @@ const About = () => {
               </div>
               <div className="md:w-1/2 h-fit">
                 <div className="flex flex-col gap-4">
-                  <h1 className="font-bold md:text-xl text-base text-text-primary leading-heading">
+                  <h1 className="font-heading md:text-xl text-base text-text-primary leading-heading">
                     🗻 Embrace the Adventure Ahead.
                   </h1>
                   <p className="font-normal md:text-base text-sm text-text-primary leading-body">
@@ -209,7 +209,7 @@ const About = () => {
             </div>
           </div>
           <div className="md:mt-24 mt-16 border-t border-border-stroke">
-            <h1 className="text-text-secondary font-bold text-sm md:py-4 py-2">
+            <h1 className="text-text-secondary font-heading text-sm md:py-4 py-2">
               EXPERIENCE
             </h1>
           </div>
@@ -279,10 +279,7 @@ const About = () => {
               </p>
             </div>
             <div>
-              <Link
-                href="https://drive.google.com/file/d/1KmszXaNN4oyJrfciOEQQOxiGjqOchHEM/view?usp=sharing"
-                alt="Resume link"
-              >
+              <Link href="/resume.pdf" alt="Resume link" target="_blank">
                 <p className="after:content-['_↓'] font-medium text-sm text-text-primary underline underline-offset-2 hover:text-opacity-60 transition-all duration-300 ease-in-out cursor-pointer">
                   View full resume here
                 </p>

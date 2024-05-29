@@ -17,12 +17,9 @@ const FeaturedCard = ({ link, img, tag, heading, content }) => {
             />
           </div>
           <div className="flex flex-col gap-4">
-            <div className="rounded-full px-2 py-[2px] w-fit bg-gray-new border border-gray-200 leading-heading font-medium">
-              <p className="text-xs text-text-secondary">{tag}</p>
-            </div>
             <div className="flex flex-col gap-2">
               <div className="flex gap-2">
-                <p className="text-text-primary md:text-xl text-base font-bold leading-heading transition-all duration-300 ease-in-out ">
+                <p className="text-text-primary md:text-xl text-base font-heading leading-heading transition-all duration-300 ease-in-out ">
                   {heading}
                 </p>
                 <ArrowUpRight

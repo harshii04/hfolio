@@ -1,13 +1,16 @@
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Inter } from "next/font/google";
+import { Fraunces } from "next/font/google";
 import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/react";
 import Navbar from "@/components/Navbar";
 import FooterNew from "@/components/FooterNew";
 import NavbarNew from "@/components/NavbarNew";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "-font-inter" });
+
+const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-fraunces" });
 
 export const metadata = {
   metadataBase: "https://www.harshii.works/",
@@ -34,7 +37,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true} className={inter.className}>
+      <body
+        suppressHydrationWarning={true}
+        className={`${inter.variable}, ${fraunces.variable}`}
+      >
         {/* <Navbar /> */}
         <NavbarNew />
         {children}

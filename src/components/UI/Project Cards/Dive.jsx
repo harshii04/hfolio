@@ -3,14 +3,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import D01 from "../../../assets/ProjectImgs/Dive/Dive.png";
-import AboutPrj from "../AboutPrj";
-import projectData from "../../../../Data/ProjectData";
+import ProjectInfo from "./ProjectInfo";
 
 const ProjectCard = () => {
-  const prj = projectData.projects[2];
   return (
     <>
-      <div className="md:py-4">
+      <div className="">
+        <ProjectInfo
+          heading={" Creating Dive Platform's Trivia Game"}
+          timeline={"Takehome assignment, Jan 2022"}
+          description={
+            "Crafted an interactive trivia game for the Dive platform, boosting user engagement and helping improve the session dynamics. The game was designed to help users connect with their co-workers by initiating conversations during the game."
+          }
+        />
+
         <Link
           href="https://bootcamp.uxdesign.cc/trivia-dive-intern-challenge-9bcefc186517"
           target="_blank"
@@ -18,24 +24,15 @@ const ProjectCard = () => {
         >
           <div className=" bg-[#f4f6f8] hover:bg-purple-card transition-all duration-500 ease-in-out md:py-12 md:px-8 py-8 px-4 flex flex-col gap-12 md:rounded-2xl rounded-lg">
             <div>
-              <p className="font-bold md:text-4xl text-2xl leading-heading text-text-primary">
-                Creating Dive Platform's Trivia Game
-              </p>
-            </div>
-            <div className="">
-              <div>
-                <Image
-                  src={D01}
-                  alt="Project Image"
-                  draggable={false}
-                  className="md:rounded-2xl rounded-lg shadow-imgShadow"
-                />
-              </div>
+              <Image
+                src={D01}
+                alt="Project Image"
+                draggable={false}
+                className="md:rounded-2xl rounded-lg shadow-imgShadow"
+              />
             </div>
           </div>
-          {/* About the project will be here */}
         </Link>
-        <AboutPrj {...prj} />
       </div>
     </>
   );

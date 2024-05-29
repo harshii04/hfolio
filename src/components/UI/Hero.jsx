@@ -1,48 +1,50 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
-
+import { CaretDown } from "@phosphor-icons/react";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 const Hero = () => {
-  // const [hovered, setHovered] = useState(false);
-
-  const [emojis, setEmojis] = useState(["✌️", "🎉", "😎", "🤪", "😂", "🫶"]); // Add more emojis to this array if needed
-  const [currentEmojiIndex, setCurrentEmojiIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentEmojiIndex((prevIndex) => (prevIndex + 1) % emojis.length);
-    }, 500); // Change the interval duration here (in milliseconds)
-
-    return () => clearInterval(interval); // Clean up the interval on unmount
-  }, [emojis.length]);
-
   return (
     <>
-      <div className="container flex flex-col md:gap-2 gap-3 md:mt-48 mt-24 md:pb-24 justify-center">
-        <div>
-          <p className="font-bold md:text-4xl text-2xl md:leading-body leading-body text-text-primary ">
-            Hi, i'm Harshvardhan{" "}
-            {/* <span role="img" aria-label="Changing Emoji">
-              {emojis[currentEmojiIndex]}
-            </span> */}
-          </p>
+      <div className="container flex flex-col gap-8 items-start justify-start md:py-20 py-20">
+        <div className="flex flex-col gap-3 md:max-w-[579px]">
+          <div>
+            <p className="md:text-[32px] text-2xl leading-heading text-text-primary font-heading">
+              An engineer turned product designer with a flair for research and
+              problem-solving.{" "}
+            </p>
+          </div>
+          <div>
+            <p className="md:text-base text-sm leading-body text-text-primary ">
+              I was working as product design intern at{" "}
+              <Link
+                href={"https://graphy.com/community-platform/"}
+                className="underline underline-offset-2 text-text-primary "
+                target="_blank"
+              >
+                Avalon Scenes
+              </Link>{" "}
+              &{" "}
+              <Link
+                href={"https://www.letsdive.io/"}
+                target="_blank"
+                className="underline underline-offset-2 text-text-primary"
+              >
+                Dive
+              </Link>{" "}
+              , I have worked on productising client-requested features,
+              internal tools, educational platform to teach coding, and game
+              design.
+            </p>
+          </div>
         </div>
-        <div>
-          <p className="font-bold md:text-4xl text-2xl md:leading-body leading-body text-text-primary ">
-            Exploring designing intelligent interfaces.
-          </p>
-        </div>
-        <div>
-          <p className="font-bold md:text-4xl text-2xl md:leading-body leading-body text-text-primary ">
-            Previously worked at Avalon Scenes and Dive.
-          </p>
-        </div>
-        <div>
-          <p className="font-bold md:text-4xl text-2xl md:leading-body leading-body text-text-primary  ">
-            Currently looking for new opportunities.
-          </p>
-        </div>
+
+        <button className="px-6 py-3 rounded-lg border border-[#0065F4] bg-custom-gradient text-white font-medium text-base leading-heading hover:shadow-main-cta hover:bg-custom-hover-gradient transition-all ease-in-out duration-300">
+          <Link href={"https://x.com/harshii04"} target="_blank">
+            Say "Hello"
+          </Link>
+        </button>
       </div>
     </>
   );

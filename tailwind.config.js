@@ -10,8 +10,8 @@ module.exports = {
       colors: {
         background: "f6f6f6",
         white: "#FFFFFF",
-        "text-primary": "#4f4f4f",
-        "text-secondary": "#a5a5a5",
+        "text-primary": "#202024",
+        "text-secondary": "#3F3F46",
         "border-stroke": "rgba(225, 228, 233, 0.8)",
         "blue-card": "#D3E1EB",
         "orange-card": "#EBDED3",
@@ -24,6 +24,9 @@ module.exports = {
         "heading-yellow": "#FFDE6A",
         "heading-green": "#14D87A",
         "hover-text": "#8a8a8a",
+      },
+      fontFamily: {
+        heading: ["var(--font-fraunces)"],
       },
       lineHeight: {
         heading: "120%",
@@ -41,8 +44,14 @@ module.exports = {
           0px 2px 4px 0px rgba(0, 0, 0, 0.16) inset,
            0px 1px 1px 0px rgba(0, 0, 0, 0.12) inset;
           `,
+        "main-cta":
+          "0px 2px 4px -2px rgba(0, 0, 0, 0.10), 0px 4px 6px -1px rgba(0, 0, 0, 0.10), 0px 2px 4px -2px color(display-p3 0 0 0 / 0.10), 0px 4px 6px -1px color(display-p3 0 0 0 / 0.10)",
         imgShadow:
           "0px 2px 4px 0px rgba(0, 0, 0, 0.08), 1px 8px 8px 0px rgba(0, 0, 0, 0.07), 2px 17px 10px 0px rgba(0, 0, 0, 0.04), 3px 30px 12px 0px rgba(0, 0, 0, 0.01), 4px 47px 13px 0px rgba(0, 0, 0, 0.00)",
+      },
+      backgroundImage: {
+        "custom-gradient": "linear-gradient(to bottom, #3B82F6, #2563EB)",
+        "custom-hover-gradient": "linear-gradient(to bottom, #5392F8, #2563EB)",
       },
     },
   },

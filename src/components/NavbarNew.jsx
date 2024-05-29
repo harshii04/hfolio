@@ -7,7 +7,7 @@ const NavbarNew = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const [text, setText] = useState("");
-  const fullText = "HVA.";
+  const fullText = "Harshvardhan Agarwal";
 
   useEffect(() => {
     let currentIndex = 0;
@@ -33,24 +33,29 @@ const NavbarNew = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <Link href="/">
-            <h1 className="md:text-base text-sm font-bold text-text-primary leading-heading underline underline-offset-4 ">
-              {text}
-            </h1>
+            <h1 className="font-heading text-text-primary text-xl">{text}</h1>
           </Link>
         </div>
         <div className="hidden md:flex transition-all duration-300 ease-in-out">
           <Link
+            href="/"
+            className="font-heading p-4 text-sm text-text-primary hover:cursor-pointer transition-all duration-300 ease-in-out leading-heading"
+          >
+            Home
+          </Link>
+          {/* <Link
             href="/work"
-            className="p-4 text-sm font-semibold text-text-primary hover:opacity-70 transition-all duration-300 ease-in-out leading-heading"
+            className="font-heading p-4 text-sm text-text-primary hover:cursor-pointer  transition-all duration-300 ease-in-out leading-heading"
           >
             Work
-          </Link>
+          </Link> */}
           <Link
             href="/about"
-            className="p-4 text-sm font-semibold text-text-primary hover:opacity-70 transition-all duration-300 ease-in-out leading-heading"
+            className="font-heading p-4 text-sm text-text-primary hover:cursor-pointer transition-all duration-300 ease-in-out leading-heading"
           >
             About
           </Link>
+
           {/* <Link
             href="/blogs"
             className="p-4 text-sm font-semibold text-text-primary hover:opacity-70 transition-all duration-300 ease-in-out leading-heading"
@@ -59,15 +64,10 @@ const NavbarNew = () => {
           </Link> */}
           <Link
             href="/resume.pdf"
-            className="group flex gap-1 items-center justify-center p-4 text-sm font-semibold text-text-primary hover:opacity-70 transition-all duration-300 ease-in-out leading-heading"
+            className="group flex gap-1 items-center justify-center p-4 text-sm font-heading text-text-primary leading-heading"
             target="_blank"
           >
             Resume
-            <ArrowUpRight
-              size={16}
-              fill="#4f4f4f"
-              className="group-hover:translate-x-1 transition-all ease-in-out duration-300"
-            />
           </Link>
         </div>
         <div className="md:hidden flex items-center justify-center transition-all duration-300 ease-in-out">
@@ -82,34 +82,33 @@ const NavbarNew = () => {
       {isOpen && (
         <div className="md:hidden bg-white transition-all duration-500 ease-in-out">
           <div className="mt-4 rounded-lg bg-white flex flex-col gap-1 pt-4 items-center justify-center">
-            <Link
+            {/* <Link
               href="/work"
-              className="p-2 text-sm font-semibold text-text-primary hover:opacity-80 transition-all duration-300 ease-in-out leading-heading"
+              className="p-2 text-sm font-heading text-text-primary  leading-heading"
               onClick={handleClick}
             >
               Work
-            </Link>
+            </Link> */}
             <Link
               href="/about"
-              className="p-2 text-sm font-semibold text-text-primary hover:opacity-80 transition-all duration-300 ease-in-out leading-heading"
+              className="p-2 text-sm font-heading text-text-primary  leading-heading"
               onClick={handleClick}
             >
               About
             </Link>
-            <Link
+            {/* <Link
               href="/blogs"
-              className="p-2 text-sm font-semibold text-text-primary hover:opacity-80 transition-all duration-300 ease-in-out leading-heading"
+              className="p-2 text-sm font-heading text-text-primary  leading-heading"
               onClick={handleClick}
             >
               Blogs
-            </Link>
+            </Link> */}
             <Link
               href="/resume.pdf"
-              className="group flex gap-1 items-center justify-center p-4 text-sm font-semibold text-text-primary hover:opacity-80 transition-all duration-300 ease-in-out leading-heading"
+              className="p-2 text-sm font-heading text-text-primary  leading-heading"
               onClick={handleClick}
             >
               Resume
-              <ArrowUpRight size={16} fill="#4f4f4f" />
             </Link>
           </div>
         </div>

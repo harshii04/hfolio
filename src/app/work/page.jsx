@@ -14,7 +14,7 @@ const Work = () => {
       >
         <div className="container pt-24 flex flex-col md:gap-4 gap-6" id="work">
           <div>
-            <p className="font-bold text-text-primary text-2xl leading-heading">
+            <p className="font-heading text-text-primary text-2xl leading-heading">
               Projects
             </p>
           </div>

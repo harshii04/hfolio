@@ -26,9 +26,7 @@ const Navbar = () => {
       <div className="container flex justify-between mt-8">
         <div>
           <Link href="/">
-            <h1 className="md:text-base text-sm font-bold text-text-primary leading-heading underline underline-offset-4 ">
-              {text}
-            </h1>
+            <h1 className="font-heading">{text}</h1>
           </Link>
         </div>
         <div>
@@ -36,7 +34,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/work"
-                className="font-semibold text-sm  text-text-primary hover:underline hover:underline-offset-4 hover:italic transition-all duration-300 ease-in-out leading-heading"
+                className="font-heading text-sm  text-text-primary hover:underline hover:underline-offset-4 hover:italic transition-all duration-300 ease-in-out leading-heading"
               >
                 Work
               </Link>

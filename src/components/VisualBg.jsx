@@ -5,7 +5,7 @@ const VisualBg = () => {
   return (
     <>
       <div className="flex flex-col gap-16 items-center md:pt-56 pt-32">
-        <p className="container text-center font-bold text-text-secondary text-2xl leading-heading">
+        <p className="container text-center font-heading text-text-secondary text-2xl leading-heading">
           Some of my <span className="text-text-primary">work </span>that is{" "}
           <span className="text-text-primary">out there</span> on the{" "}
           <span className="text-text-primary">internet!</span>
