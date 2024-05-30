@@ -47,7 +47,7 @@ const ProfessionalWork = () => {
             logo={AvalonLogo}
             company="Avalon Scenes"
             heading="Designed multiple client requested features and internal tools"
-            timeline="Freelance, January 2024"
+            timeline="December '22 - April '23"
             description={
               "At Avalon, I contributed to the development and enhancement of multiple features, including the weekly leaderboard, tag and hashtag creation, the revamp of the new post creation flow, and user profile redesigns. My work aimed to improve user engagement, streamline workflows, and enhance the overall user experience. "
             }
