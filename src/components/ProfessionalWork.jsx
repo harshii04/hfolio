@@ -1,14 +1,14 @@
 import MultiProject from "./UI/Project Cards/MultiProject";
 import BamosLogo from "../assets/Bamos/Bamos Logo.svg";
-import Bamos1 from "../assets/Bamos/Bamos 1.svg";
-import Bamos2 from "../assets/Bamos/Bamos 2.svg";
+import Bamos1 from "../assets/Bamos/Bamos 1.jpg";
+import Bamos2 from "../assets/Bamos/Bamos 2.jpg";
 import Bamos3 from "../assets/Bamos/Bamos 3.svg";
 import Bamos4 from "../assets/Bamos/Bamos 4.svg";
 import AvalonLogo from "../assets/Avalon/Avalon Logo.svg";
-import Avalon1 from "../assets/Avalon/Avalon 1.svg";
+import Avalon1 from "../assets/Avalon/Avalon 1.jpg";
 import Avalon2 from "../assets/Avalon/Avalon 2.svg";
-import Avalon3 from "../assets/Avalon/Avalon 3.svg";
-import Avalon4 from "../assets/Avalon/Avalon 4.svg";
+import Avalon3 from "../assets/Avalon/Avalon 3.jpg";
+import Avalon4 from "../assets/Avalon/Avalon 4.jpg";
 
 const ProfessionalWork = () => {
   return (
