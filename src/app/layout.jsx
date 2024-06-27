@@ -2,9 +2,7 @@ import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Inter } from "next/font/google";
 import { Fraunces } from "next/font/google";
-import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/react";
-import Navbar from "@/components/Navbar";
 import FooterNew from "@/components/FooterNew";
 import NavbarNew from "@/components/NavbarNew";
 
@@ -41,7 +39,6 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning={true}
         className={`${inter.variable}, ${fraunces.variable}`}
       >
-        {/* <Navbar /> */}
         <NavbarNew />
         {children}
         <SpeedInsights />
