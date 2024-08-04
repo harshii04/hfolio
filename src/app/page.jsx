@@ -17,7 +17,7 @@ export default function Home() {
         {/* <Navbar /> */}
         <Hero />
         <Project />
-        <ProfessionalWork />
+        {/* <ProfessionalWork /> */}
         <VisualBg />
         <Featured />
       </motion.div>

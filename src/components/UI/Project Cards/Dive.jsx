@@ -20,7 +20,7 @@ const ProjectCard = () => {
         <Link
           href="https://bootcamp.uxdesign.cc/trivia-dive-intern-challenge-9bcefc186517"
           target="_blank"
-          alt="This is my projects"
+          alt="Project link"
         >
           <div className=" bg-[#f4f6f8] hover:bg-purple-card transition-all duration-500 ease-in-out md:py-12 md:px-8 py-8 px-4 flex flex-col gap-12 md:rounded-2xl rounded-lg">
             <div>

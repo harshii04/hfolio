@@ -14,7 +14,7 @@ const ProjectCard = () => {
     <>
       <div className="md:py-4">
         <ProjectInfo
-          heading={"Group Food Ordering"}
+          heading={"Enhancing Group Food Ordering"}
           timeline={"Concept project, June 2022"}
           description={
             "Post-COVID get-togethers at home became more common, these required ordering food for all which was seen to be a long process because of indecisiveness. So I introduced a voting system to choose the restaurant which reduced the delay."
@@ -23,7 +23,7 @@ const ProjectCard = () => {
         <Link
           href="https://bootcamp.uxdesign.cc/group-food-ordering-helping-people-order-food-online-in-groups-e669b696434d"
           target="_blank"
-          alt="this is my link"
+          alt="Project link"
         >
           <div className=" bg-[#f4f6f8] hover:bg-orange-card transition-all duration-500 ease-in-out md:py-12 md:px-8 py-8 px-4 flex flex-col gap-12 md:rounded-2xl rounded-lg">
             <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
