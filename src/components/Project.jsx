@@ -1,6 +1,7 @@
 import GFO from "./UI/Project Cards/GFO";
 import Dive from "./UI/Project Cards/Dive";
 import POA from "./UI/Project Cards/POA";
+import InvoiceFlo from "./UI/Project Cards/InvoiceFlo";
 
 const Project = () => {
   return (
@@ -12,9 +13,9 @@ const Project = () => {
           </p>
         </div>
         <div className="flex flex-col md:gap-8 gap-12">
+          <InvoiceFlo />
           <POA />
           <GFO />
-          <Dive />
         </div>
       </div>
     </>
