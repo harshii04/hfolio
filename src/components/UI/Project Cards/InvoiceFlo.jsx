@@ -18,7 +18,7 @@ const ProjectCard = () => {
         />
 
         <Link
-          href="https://bootcamp.uxdesign.cc/trivia-dive-intern-challenge-9bcefc186517"
+          href="https://medium.com/@harsh_youx/crafting-a-seamless-onboarding-journey-for-business-owners-5d8419916ae7"
           target="_blank"
           alt="Project link"
         >
